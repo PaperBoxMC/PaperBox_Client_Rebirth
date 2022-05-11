@@ -1,0 +1,5 @@
+D:\÷Ωœ‰π§“’ VI\.minecraft\addons\Additions\Nova's Item Extended\data\loot_tables\additions\blocks\novaextended-1.json
+- Expected preset_block to be a block, was unknown string 'additions:novaextended-1'
+- Expected preset_block to be a block, was unknown string 'additions:novaextended-1'
+- Expected preset_block to be a block, was unknown string 'additions:novaextended-1'
+
