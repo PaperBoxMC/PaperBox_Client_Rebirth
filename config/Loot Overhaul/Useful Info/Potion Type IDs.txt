@@ -186,14 +186,34 @@ minecraft:luck
        minecraft:luck - 6000 - 0 - false - true
 
 
-enderio:withering
+rpsideas:psishock
    - Effects: 
-       minecraft:wither - 900 - 0 - false - true
+       rpsideas:psishock - 160 - 0 - false - true
 
 
-enderio:long_withering
+rpsideas:psishock_long
    - Effects: 
-       minecraft:wither - 2400 - 0 - false - true
+       rpsideas:psishock - 240 - 0 - false - true
+
+
+rpsideas:psishock_strong
+   - Effects: 
+       rpsideas:psishock - 125 - 1 - false - true
+
+
+rpsideas:psipulse
+   - Effects: 
+       rpsideas:psipulse - 400 - 0 - false - true
+
+
+rpsideas:psipulse_strong
+   - Effects: 
+       rpsideas:psipulse - 250 - 1 - false - true
+
+
+rpsideas:psipulse_long
+   - Effects: 
+       rpsideas:psipulse - 600 - 0 - false - true
 
 
 enderio:confusion
@@ -204,6 +224,16 @@ enderio:confusion
 enderio:long_confusion
    - Effects: 
        minecraft:nausea - 2400 - 0 - false - true
+
+
+enderio:withering
+   - Effects: 
+       minecraft:wither - 900 - 0 - false - true
+
+
+enderio:long_withering
+   - Effects: 
+       minecraft:wither - 2400 - 0 - false - true
 
 
 enderio:floating
@@ -251,16 +281,6 @@ resize:strong_growth
        resize:growth - 3600 - 1 - false - true
 
 
-cuisine:cuisine.dispersal
-   - Effects: 
-       cuisine:dispersal - 1200 - 0 - false - true
-
-
-cuisine:cuisine.toughness
-   - Effects: 
-       cuisine:toughness - 1200 - 0 - false - true
-
-
 cuisine:cuisine.hot
    - Effects: 
        cuisine:hot - 1200 - 0 - false - true
@@ -269,6 +289,16 @@ cuisine:cuisine.hot
 cuisine:cuisine.cold_blood
    - Effects: 
        cuisine:cold_blood - 1200 - 0 - false - true
+
+
+cuisine:cuisine.dispersal
+   - Effects: 
+       cuisine:dispersal - 1200 - 0 - false - true
+
+
+cuisine:cuisine.toughness
+   - Effects: 
+       cuisine:toughness - 1200 - 0 - false - true
 
 
 cofhcore:haste
@@ -714,35 +744,5 @@ apotheosis:long_knowledge
 apotheosis:strong_knowledge
    - Effects: 
        apotheosis:knowledge - 1200 - 1 - false - true
-
-
-rpsideas:psipulse_strong
-   - Effects: 
-       rpsideas:psipulse - 250 - 1 - false - true
-
-
-rpsideas:psishock_long
-   - Effects: 
-       rpsideas:psishock - 240 - 0 - false - true
-
-
-rpsideas:psipulse
-   - Effects: 
-       rpsideas:psipulse - 400 - 0 - false - true
-
-
-rpsideas:psishock
-   - Effects: 
-       rpsideas:psishock - 160 - 0 - false - true
-
-
-rpsideas:psipulse_long
-   - Effects: 
-       rpsideas:psipulse - 600 - 0 - false - true
-
-
-rpsideas:psishock_strong
-   - Effects: 
-       rpsideas:psishock - 125 - 1 - false - true
 
 

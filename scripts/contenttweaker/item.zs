@@ -9,8 +9,7 @@ import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Item;
 
 function regItem(name as string) {
-    var item as Item = 
-regItem(name);
+    var item as Item = VanillaFactory.createItem(name);
     item.creativeTab = <creativetab:misc>;
     item.register();
 }
@@ -149,7 +148,7 @@ var programmingCircuits as string[] = [
     "g"
 ];
 for programmingCircuit in programmingCircuits{
-    regItem(programmingCircuit);
+    regItem("programming_circuit_" + programmingCircuit);
 }
 
 //硅晶柱

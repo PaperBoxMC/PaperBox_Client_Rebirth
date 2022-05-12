@@ -89,8 +89,7 @@ recipes.addShaped(<contenttweaker:programming_circuit_d>, [[null,null,null],[<or
 recipes.addShaped(<contenttweaker:programming_circuit_e>, [[null,null,null],[null,<ore:programmingCircuit>,null],[null,null,null]]);
 recipes.addShaped(<contenttweaker:programming_circuit_f>, [[null,null,null],[null,null,<ore:programmingCircuit>],[null,null,null]]);
 recipes.addShaped(<contenttweaker:programming_circuit_g>, [[null,null,null],[null,null,null],[<ore:programmingCircuit>,null,null]]);
-recipes.addShaped(<contenttweaker:programming_circuit_h>, [[null,null,null],[null,null,null],[null,<ore:programmingCircuit>,null]]);
-recipes.addShaped(<contenttweaker:programming_circuit_0>, [[null,null,null],[null,null,null],[null,null,<ore:programmingCircuit>]]);
+recipes.addShaped(<contenttweaker:programming_circuit_0>, [[null,null,null],[null,null,null],[null,<ore:programmingCircuit>,null]]);
 recipes.addShaped(<extendedcrafting:material:15> * 4, [[<ore:ingotGold>, <minecraft:gold_ingot>, <minecraft:gold_ingot>], [<extendedcrafting:material:14>, <extendedcrafting:material:14>, <ore:ingotGold>], [<extendedcrafting:material:14>, <extendedcrafting:material:14>, <ore:ingotGold>]]);
 recipes.addShaped(<extendedcrafting:material:14> * 2, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], [<ore:gemCoal>, <ore:gemCoal>, <minecraft:iron_ingot>], [<ore:gemCoal>, <minecraft:coal>, <minecraft:iron_ingot>]]);
 recipes.addShaped(<modularmachinery:blockcasing:1>, [[<ore:ingotIron>, <enderio:block_dark_iron_bars>, <ore:ingotIron>], [<enderio:block_dark_iron_bars>, <modularmachinery:blockcasing>, <enderio:block_dark_iron_bars>], [<ore:ingotIron>, <enderio:block_dark_iron_bars>, <ore:ingotIron>]]);

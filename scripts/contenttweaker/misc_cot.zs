@@ -43,9 +43,8 @@ val PCD = <contenttweaker:programming_circuit_d>;
 val PCE = <contenttweaker:programming_circuit_e>;
 val PCF = <contenttweaker:programming_circuit_f>;
 val PCG = <contenttweaker:programming_circuit_g>;
-val PCH = <contenttweaker:programming_circuit_h>;
 
-<ore:programmingCircuit>.add(PC0, PCA, PCB, PCC, PCD, PCE, PCF, PCG, PCH);
+<ore:programmingCircuit>.add(PC0, PCA, PCB, PCC, PCD, PCE, PCF, PCG);
 
 val CBBU = <contenttweaker:circuit_board_basic_universal>;
 val CBAU = <contenttweaker:circuit_board_advanced_universal>;
