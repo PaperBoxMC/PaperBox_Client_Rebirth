@@ -1,6 +1,7 @@
 {
     "renders": [
         "paperbox/background",
+        "paperbox/rebirth",
         "paperbox/progress_base",
         "paperbox/progress_bar",
         "paperbox/sub_progress_base_left",

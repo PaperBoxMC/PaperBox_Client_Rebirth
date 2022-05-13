@@ -359,6 +359,15 @@ for item in loadedMods["modularcontroller"].items {
 //能量液化机
 <modularcontroller:energy_liquefier_controller>.addTooltip(DIFF7PRO);
 
+//复合型中子复制压缩机
+<modularcontroller:cnrc_controller>.addTooltip(DIFF11);
+<modularcontroller:cnrc_controller>.addTooltip("§b在ECO实验室失去了新产品音讯的513年后，推出了全新的产品：§5复合型§6中子复制压缩机。");
+<modularcontroller:cnrc_controller>.addTooltip("§b这种奇特的机械可以直接操纵紫晶素的原子，并将其任意转变为其他原子，其中用到了原子重构机的尖端技术。");
+<modularcontroller:cnrc_controller>.addTooltip("§b此外，ECO实验室还与GSP星系的§9StP§b实验室合作，将其与量子压缩机完美结合，使其成为量子工业上又一大成就。");
+<modularcontroller:cnrc_controller>.addTooltip("§e量子压缩机是一个基于中子素压缩机改进，甚至是重构的高级机械。");
+<modularcontroller:cnrc_controller>.addTooltip("§c传言中，量子压缩机内可能含有一个微型宇宙。");
+<modularcontroller:cnrc_controller>.addTooltip("§6这种强大的机械能力一直未有研发人员能够驾驭，§e直到现在。");
+
 for item in loadedMods["modularcontroller"].items {
     (item).addTooltip("§9§l=======控制器提示=======");
     (item).addTooltip("§d每个机械的独立控制器");

@@ -1153,7 +1153,6 @@ RecipeBuilder.newBuilder("orichalcos_drill_3","orichalcos_drill", 200)
 .addItemOutput(<tconstruct:ore:1> * 5).setChance(0.15)
 .addItemOutput(<draconicevolution:draconium_ore:2> * 4).setChance(0.2)
 .addItemOutput(<rftools:dimensional_shard_ore:2> * 4).setChance(0.2)
-.addItemOutput(<biomesoplenty:gem_ore> * 3).setChance(0.15)
 .build();
 
 //==============================物质熵变机==============================
@@ -1899,3 +1898,91 @@ RecipeBuilder.newBuilder("tiny_energy_converter_1", "tiny_energy_converter", 200
 .addFluidInput(<liquid:liquid_energy>)
 .addEnergyPerTickOutput(2500000)
 .build();
+
+//==============================复合型中子复制压缩机==============================
+//复合型中子复制压缩机_控制器
+RecipeBuilder.newBuilder("cnrc_controller", "acar", 24000)
+.addItemInput(<custommc:item780> * 4)
+.addItemInput(<ic2:te:63> * 32)
+.addItemInput(<extendedcrafting:compressor> * 4)
+.addItemInput(<ore:circuitArk>, 8)
+.addItemInput(<ore:circuitExtreme>, 32)
+.addFluidInput(<liquid:crystalloidneutron> * 28800)
+.addEnergyPerTickInput(3840000)
+.addItemOutput(<modularcontroller:cnrc_controller>)
+.build();
+
+var models as IItemStack[] = [
+    <contenttweaker:data_model_tin>,
+    <contenttweaker:data_model_iron>,
+    <contenttweaker:data_model_copper>,
+    <contenttweaker:data_model_lapis>,
+    <contenttweaker:data_model_redstone>,
+    <contenttweaker:data_model_gold>,
+    <contenttweaker:data_model_lead>,
+    <contenttweaker:data_model_nickel>,
+    <contenttweaker:data_model_quartz>,
+    <contenttweaker:data_model_silver>,
+    <contenttweaker:data_model_electrum_flux>,
+    <contenttweaker:data_model_crystal_flux>,
+    <contenttweaker:data_model_diamond>,
+    <contenttweaker:data_model_iridium>,
+    <contenttweaker:data_model_platinum>,
+    <contenttweaker:data_model_emerald>,
+    <contenttweaker:data_model_gelid_enderium>,
+    <contenttweaker:data_model_gelid_gem>
+];
+
+var modelOutputs as IItemStack[] = [
+    <avaritia:singularity:6> * 2,# 锡
+    <avaritia:singularity:0> * 2,# 铁
+    <avaritia:singularity:5> * 2,# 铜
+    <avaritia:singularity:2> * 3,# 青金石
+    <avaritia:singularity:3> * 1,# 红石
+    <avaritia:singularity:1> * 5,# 金
+    <avaritia:singularity:7> * 5,# 铅
+    <avaritia:singularity:9> * 1,# 镍
+    <avaritia:singularity:4> * 1,# 石英
+    <avaritia:singularity:8> * 1,# 银
+    <avaritia:singularity:12> * 1,# 红石琥珀金
+    <redstonearsenal:storage:1> * 64,# 红石水晶
+    <avaritia:singularity:10> * 1,# 钻石
+    <avaritia:singularity:14> * 1,# 铱
+    <avaritia:singularity:13> * 1,# 铂
+    <avaritia:singularity:11> * 1,# 绿宝石
+    <redstonerepository:storage:0> * 64,# 极寒末影
+    <redstonerepository:storage:1> * 64# 极寒水晶
+];
+
+var modelUseUUs as int[] = [
+    1,
+    1,
+    1,
+    2,
+    1,
+    4,
+    4,
+    1,
+    1,
+    1,
+    1,
+    9,
+    525,
+    655,
+    290,
+    830,
+    130,
+    105
+];
+
+for i ,model in models {
+    var modelOutput = modelOutputs[i];
+    var modelUseUU = modelUseUUs[i];
+
+    RecipeBuilder.newBuilder("cnrc_copy_" + i, "cnrc", 200)
+    .addItemInput(model).setChance(0)
+    .addFluidInput(<liquid:crystalloid> * modelUseUU)
+    .addEnergyPerTickInput(1500000 * modelUseUU)
+    .addItemOutput(modelOutput)
+    .build();
+}

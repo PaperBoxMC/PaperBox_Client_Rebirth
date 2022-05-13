@@ -21,9 +21,9 @@ customization {
 customization {
   identifier = %id=400322%
   orientation = mid-centered
-  x = -101
+  x = -100
   action = movebutton
-  y = 0
+  y = -1
 }
 
 customization {
@@ -286,5 +286,16 @@ customization {
   backgroundnormal = resources\mainmenu\accounts.png
   value = the_fireplace.ias.gui.GuiAccountSelector
   height = 30
+}
+
+customization {
+  path = resources/customloadingscreen/image/paperbox/rebirth.png
+  orientation = bottom-centered
+  x = -55
+  width = 111
+  actionid = 634e33d9-c88c-431d-bbe1-7443396457cd1652431285716
+  action = addtexture
+  y = -33
+  height = 33
 }
 

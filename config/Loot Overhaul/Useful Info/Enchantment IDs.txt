@@ -112,20 +112,20 @@ advancedrocketry:spacebreathing
    - Max Level: 1
 
 
-endercore:autosmelt
-   - Id: 13
-   - Rarity: RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 1
-
-
 endercore:xpboost
-   - Id: 14
+   - Id: 13
    - Rarity: UNCOMMON
    - Treasure: false
    - Min Level: 1
    - Max Level: 3
+
+
+endercore:autosmelt
+   - Id: 14
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 1
 
 
 enderio:repellent

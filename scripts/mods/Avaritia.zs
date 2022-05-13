@@ -94,18 +94,18 @@ ExtremeCrafting.addShaped("Ava:Neutron_Collector", <avaritia:neutron_collector> 
 ExtremeCrafting.addShaped("Ava:Resource:5_2", <avaritia:resource:5> * 8, [
     [null, null, null, null, null, null, null, null, null],
     [null, <avaritia:endest_pearl>, null, null, <tconevo:metal:5>, null, null, <mets:field_generator>, null],
-    [null, null, <avaritia:block_resource:2>, null, <eternalsingularity:eternal_singularity>, null, <avaritia:block_resource:0>, null, null],
+    [null, null, <avaritia:block_resource:2>, null, <eternalsingularity:eternal_singularity>, null, <ore:blockGelidGem>, null, null],
     [null, null, null, <custommc:item170>, <contenttweaker:universalalloyt2>, <custommc:item170>, null, null, null],
-    [null, <tconevo:metal:10>, <eternalsingularity:eternal_singularity>, <contenttweaker:crystalpurple>, <avaritia:resource:5>, <contenttweaker:crystalpurple>, <eternalsingularity:eternal_singularity>, <tconevo:metal:10>, null],
+    [null, <ore:ingotCosmicNeutronium>, <eternalsingularity:eternal_singularity>, <contenttweaker:crystalpurple>, <avaritia:resource:5>, <contenttweaker:crystalpurple>, <eternalsingularity:eternal_singularity>, <ore:ingotCosmicNeutronium>, null],
     [null, null, null, <custommc:item170>, <contenttweaker:universalalloyt2>, <custommc:item170>, null, null, null],
-    [null, null, <avaritia:block_resource:0>, null, <eternalsingularity:eternal_singularity>, null, <avaritia:block_resource:2>, null, null],
+    [null, null, <ore:blockGelidEnderium>, null, <eternalsingularity:eternal_singularity>, null, <avaritia:block_resource:2>, null, null],
     [null, <mets:field_generator>, null, null, <tconevo:metal:5>, null, null, <avaritia:endest_pearl>, null],
     [null, null, null, null, null, null, null, null, null]
 ]);
 
 ExtremeCrafting.addShaped("Ava:Resource:5", <avaritia:resource:5> * 2, [
     [null, null, null, null, null, null, null, null, null],
-    [null, <avaritia:resource:2>, null, null, <avaritia:block_resource:0>, null, null, <tconevo:metal:30>, null],
+    [null, <avaritia:resource:2>, null, null, <ore:blockElectrumFlux>, null, null, <tconevo:metal:30>, null],
     [null, null, <avaritia:resource:3>, null, <tconstruct:metal:2>, null, <avaritia:resource:1>, null, null],
     [null, null, null, <avaritia:resource:4>, <mets:field_generator>, <additions:novaextended-fallen_star_alloy>, null, null, null],
     [null, <redstonerepository:storage:0>, <redstonerepository:storage:1>, <avaritia:endest_pearl>, <eternalsingularity:eternal_singularity>, <custommc:item170>, <draconicevolution:draconic_block>, <jaopca:block_blockwillowalloy>, null],
