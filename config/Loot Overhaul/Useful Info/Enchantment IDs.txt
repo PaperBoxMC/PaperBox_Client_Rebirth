@@ -128,12 +128,12 @@ endercore:autosmelt
    - Max Level: 1
 
 
-enderio:repellent
+enderio:witherarrow
    - Id: 15
-   - Rarity: VERY_RARE
+   - Rarity: UNCOMMON
    - Treasure: false
    - Min Level: 1
-   - Max Level: 4
+   - Max Level: 1
 
 
 minecraft:sharpness
@@ -192,33 +192,33 @@ minecraft:sweeping
    - Max Level: 3
 
 
-enderio:shimmer
+enderio:witherweapon
    - Id: 23
+   - Rarity: UNCOMMON
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 1
+
+
+enderio:repellent
+   - Id: 24
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 4
+
+
+enderio:shimmer
+   - Id: 25
    - Rarity: VERY_RARE
    - Treasure: true
    - Min Level: 1
    - Max Level: 1
 
 
-enderio:witherweapon
-   - Id: 24
-   - Rarity: UNCOMMON
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 1
-
-
 enderio:soulbound
-   - Id: 25
-   - Rarity: VERY_RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 1
-
-
-enderio:witherarrow
    - Id: 26
-   - Rarity: UNCOMMON
+   - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
    - Max Level: 1

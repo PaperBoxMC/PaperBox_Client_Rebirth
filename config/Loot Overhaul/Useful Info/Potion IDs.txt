@@ -952,25 +952,25 @@ extrabotany:healreverse
 	- Is Beneficial: true
 
 
-cuisine:effect_resistance
+cuisine:toughness
    - Id: 118
-   - Color: 13421823
+   - Color: 9713987
    - Is Instant: false
-   - Is Bad: true
-	- Is Beneficial: false
+   - Is Bad: false
+	- Is Beneficial: true
 
 
-cuisine:drunk
+cuisine:sustained_release
    - Id: 119
-   - Color: 16048973
+   - Color: 16262179
    - Is Instant: false
-   - Is Bad: true
-	- Is Beneficial: false
+   - Is Bad: false
+	- Is Beneficial: true
 
 
-cuisine:dispersal
+cuisine:hot
    - Id: 120
-   - Color: 13416604
+   - Color: 16729344
    - Is Instant: false
    - Is Bad: false
 	- Is Beneficial: true
@@ -984,28 +984,28 @@ cuisine:cold_blood
 	- Is Beneficial: true
 
 
-cuisine:hot
+cuisine:drunk
    - Id: 122
-   - Color: 16729344
+   - Color: 16048973
    - Is Instant: false
-   - Is Bad: false
-	- Is Beneficial: true
+   - Is Bad: true
+	- Is Beneficial: false
 
 
-cuisine:sustained_release
+cuisine:dispersal
    - Id: 123
-   - Color: 16262179
+   - Color: 13416604
    - Is Instant: false
    - Is Bad: false
 	- Is Beneficial: true
 
 
-cuisine:toughness
+cuisine:effect_resistance
    - Id: 124
-   - Color: 9713987
+   - Color: 13421823
    - Is Instant: false
-   - Is Bad: false
-	- Is Beneficial: true
+   - Is Bad: true
+	- Is Beneficial: false
 
 
 tconevo:immortality
@@ -1107,6 +1107,30 @@ resize:shrinking
 resize:growth
    - Id: 137
    - Color: 16750080
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: false
+
+
+techguns:radresistance
+   - Id: 138
+   - Color: -6706131
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: true
+
+
+techguns:radiation
+   - Id: 139
+   - Color: -805765376
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+techguns:radregeneration
+   - Id: 140
+   - Color: 268050432
    - Is Instant: false
    - Is Bad: false
 	- Is Beneficial: false

@@ -29,7 +29,7 @@ fullscreen:false
 enableVsync:false
 useVbo:true
 hideServerAddress:false
-advancedItemTooltips:true
+advancedItemTooltips:false
 pauseOnLostFocus:false
 touchscreen:false
 overrideWidth:0
@@ -92,7 +92,7 @@ key_Mode Switch Key:50
 key_Side Inventory Key:0
 key_Hub Expand Key:45
 key_Reload Menu | CTRL + ALT + :19
-key_Toggle Customization Overlay | CTRL + ALT + :46
+key_Toggle Customization Overlay | CTRL + ALT + :0
 key_psimisc.keybind:0
 key_keybind.baublesinventory:48
 key_rpsideas.kb.offhandcast:0
@@ -147,9 +147,9 @@ key_Scene reset:82
 key_Quest Log:38
 key_key.vehicle.horn:35
 key_key.vehicle.cycle_seats:0
-key_Reload Default Sound Device:25
+key_Reload Default Sound Device:157
 key_ingameinfoxml.key.toggle:0
-key_key.open_menu:19
+key_key.open_menu:62
 key_oreexcavation.key.excavate:41
 key_oreexcavation.key.shape:47
 key_Gravi Fly Key:33
@@ -207,6 +207,19 @@ key_keys.armourers_workshop.open-wardrobe:25
 key_bbw.key.mode:50
 key_bbw.key.fluidmode:33
 key_key.sakura.sheath_in:47
+key_techguns.key.toggleNightvision:49
+key_techguns.key.toggleSafemode:48
+key_techguns.key.toggleStepassist:47
+key_techguns.key.forceReload:19
+key_techguns.key.toggleJetpack:36
+key_Camera left:203
+key_Camera right:205
+key_Camera closer:200
+key_Camera farther:208
+key_Camera up:201
+key_Camera down:209
+key_Swap shoulder:24
+key_Toggle perspective:0
 key_FpsReducer.key.guiOpen:207
 key_FpsReducer.key.forceIdle:197
 key_key.itemzoom.toggle:44:SHIFT

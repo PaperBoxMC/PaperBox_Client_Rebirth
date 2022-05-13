@@ -216,14 +216,14 @@ rpsideas:psipulse_long
        rpsideas:psipulse - 600 - 0 - false - true
 
 
-enderio:withering
+enderio:confusion
    - Effects: 
-       minecraft:wither - 900 - 0 - false - true
+       minecraft:nausea - 900 - 0 - false - true
 
 
-enderio:long_withering
+enderio:long_confusion
    - Effects: 
-       minecraft:wither - 2400 - 0 - false - true
+       minecraft:nausea - 2400 - 0 - false - true
 
 
 enderio:floating
@@ -241,14 +241,14 @@ enderio:long_floating
        minecraft:levitation - 560 - 0 - false - true
 
 
-enderio:confusion
+enderio:withering
    - Effects: 
-       minecraft:nausea - 900 - 0 - false - true
+       minecraft:wither - 900 - 0 - false - true
 
 
-enderio:long_confusion
+enderio:long_withering
    - Effects: 
-       minecraft:nausea - 2400 - 0 - false - true
+       minecraft:wither - 2400 - 0 - false - true
 
 
 resize:shrinking
@@ -281,14 +281,9 @@ resize:strong_growth
        resize:growth - 3600 - 1 - false - true
 
 
-cuisine:cuisine.dispersal
+cuisine:cuisine.toughness
    - Effects: 
-       cuisine:dispersal - 1200 - 0 - false - true
-
-
-cuisine:cuisine.cold_blood
-   - Effects: 
-       cuisine:cold_blood - 1200 - 0 - false - true
+       cuisine:toughness - 1200 - 0 - false - true
 
 
 cuisine:cuisine.hot
@@ -296,9 +291,14 @@ cuisine:cuisine.hot
        cuisine:hot - 1200 - 0 - false - true
 
 
-cuisine:cuisine.toughness
+cuisine:cuisine.cold_blood
    - Effects: 
-       cuisine:toughness - 1200 - 0 - false - true
+       cuisine:cold_blood - 1200 - 0 - false - true
+
+
+cuisine:cuisine.dispersal
+   - Effects: 
+       cuisine:dispersal - 1200 - 0 - false - true
 
 
 cofhcore:haste
@@ -744,5 +744,25 @@ apotheosis:long_knowledge
 apotheosis:strong_knowledge
    - Effects: 
        apotheosis:knowledge - 1200 - 1 - false - true
+
+
+techguns:radpotion_severe
+   - Effects: 
+       techguns:radiation - 300 - 24 - false - true
+
+
+techguns:radpotion
+   - Effects: 
+       techguns:radiation - 300 - 4 - false - true
+
+
+techguns:radregenerationpotion
+   - Effects: 
+       techguns:radregeneration - 400 - 9 - false - true
+
+
+techguns:radresistancepotion
+   - Effects: 
+       techguns:radresistance - 900 - 1 - false - true
 
 
