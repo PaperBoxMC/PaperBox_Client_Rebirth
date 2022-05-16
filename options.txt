@@ -1,7 +1,7 @@
 version:1343
 invertYMouse:false
 mouseSensitivity:0.5
-fov:0.5
+fov:1.0
 gamma:1.0
 saturation:0.0
 renderDistance:8
@@ -11,7 +11,7 @@ bobView:true
 anaglyph3d:false
 maxFps:260
 fboEnable:true
-difficulty:2
+difficulty:3
 fancyGraphics:false
 ao:1
 renderClouds:true
@@ -139,7 +139,7 @@ key_key.open_wpt.desc:0
 key_key.open_wft.desc:0
 key_cos.key.opencosarmorinventory:0
 key_enderutilities.key.activate_unselected:34
-key_enderutilities.key.togglemode:34
+key_enderutilities.key.togglemode:0
 key_Scene1 start/pause:79
 key_Scene2 start/pause:80
 key_Scene3 start/pause:81
@@ -149,7 +149,7 @@ key_key.vehicle.horn:35
 key_key.vehicle.cycle_seats:0
 key_Reload Default Sound Device:157
 key_ingameinfoxml.key.toggle:0
-key_key.open_menu:62
+key_key.open_menu:21
 key_oreexcavation.key.excavate:41
 key_oreexcavation.key.shape:47
 key_Gravi Fly Key:0
@@ -170,7 +170,7 @@ key_key.jei.bookmark:30
 key_key.jei.toggleBookmarkOverlay:0
 key_key.cofh.multimode:47
 key_mekanism.key.mode:50
-key_mekanism.key.armorMode:34
+key_mekanism.key.armorMode:0
 key_mekanism.key.feetMode:35
 key_mekanism.key.voice:22
 key_nei.options.keys.gui.botania_corporea_request:0
@@ -187,12 +187,12 @@ key_key.neenergistics.recipe.ingredient.change:42
 key_key.neenergistics.stack.count.change:29
 key_key.neenergistics.crafting.helper.preview:29
 key_key.neenergistics.crafting.helper.noPreview:56
+key_key.toggleLiquids:38
+key_key.toggleVisible:0
 key_key.porterNextDestination:27
 key_key.porterPrevDestination:26
 key_key.debugDumpNBTItem:0
 key_key.debugDumpNBTBlock:0
-key_key.toggleLiquids:38
-key_key.toggleVisible:0
 key_key.plustic_release_entity.desc:11
 key_key.plustic_toggle_gui.desc:23
 key_key.plustic_set_portal.desc:49
@@ -203,7 +203,7 @@ key_key.plustic_mots.desc:13:ALT
 key_key.taiga.alt_action:29
 key_key.infinity_armor.noclip:40
 key_keys.armourers_workshop.undo:44:CONTROL
-key_keys.armourers_workshop.open-wardrobe:25
+key_keys.armourers_workshop.open-wardrobe:66
 key_bbw.key.mode:50
 key_bbw.key.fluidmode:0
 key_key.sakura.sheath_in:47
@@ -211,7 +211,7 @@ key_techguns.key.toggleNightvision:49
 key_techguns.key.toggleSafemode:48
 key_techguns.key.toggleStepassist:47
 key_techguns.key.forceReload:19
-key_techguns.key.toggleJetpack:36
+key_techguns.key.toggleJetpack:0
 key_Camera left:203
 key_Camera right:205
 key_Camera closer:200
@@ -231,7 +231,7 @@ key_key.overload:33:SHIFT
 key_key.chaosInjection:34:SHIFT
 key_Open Matter Scanner GUI:0
 key_Android Ability key:45
-key_Android Switch Ability key:0
+key_Android Switch Ability key:184
 key_Profile GUI:199
 key_key.journeymap.zoom_in:13
 key_key.journeymap.zoom_out:12
@@ -249,7 +249,7 @@ key_key.journeymap.fullscreen.north:200
 key_key.journeymap.fullscreen.south:208
 key_key.journeymap.fullscreen.east:205
 key_key.journeymap.fullscreen.west:203
-key_开关喷气背包:45
+key_开关喷气背包:0
 key_打开火箭界面:0
 key_切换 RCS:0
 key_向右旋转载具:32
@@ -287,7 +287,7 @@ soundCategory_neutral:1.0
 soundCategory_player:1.0
 soundCategory_ambient:1.0
 soundCategory_voice:1.0
-modelPart_cape:true
+modelPart_cape:false
 modelPart_jacket:true
 modelPart_left_sleeve:true
 modelPart_right_sleeve:true
