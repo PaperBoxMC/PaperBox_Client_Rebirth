@@ -10339,13 +10339,24 @@ appliedenergistics2:fluix_slab:0, 福鲁伊克斯台阶
 appliedenergistics2:quartz_slab:0, 赛特斯石英台阶
 appliedenergistics2:chiseled_quartz_slab:0, 錾制赛特斯石英台阶
 appliedenergistics2:quartz_pillar_slab:0, 竖纹赛特斯石英台阶
+appliedenergistics2:certus_quartz_axe, 赛特斯石英斧
+appliedenergistics2:certus_quartz_hoe, 赛特斯石英锄
+appliedenergistics2:certus_quartz_spade, 赛特斯石英锹
+appliedenergistics2:certus_quartz_pickaxe, 赛特斯石英镐
+appliedenergistics2:certus_quartz_sword, 赛特斯石英剑
 appliedenergistics2:certus_quartz_wrench, 赛特斯石英扳手
 appliedenergistics2:certus_quartz_cutting_knife, 赛特斯石英切割刀
+appliedenergistics2:nether_quartz_axe, 下界石英斧
+appliedenergistics2:nether_quartz_hoe, 下界石英锄
+appliedenergistics2:nether_quartz_spade, 下界石英锹
+appliedenergistics2:nether_quartz_pickaxe, 下界石英镐
+appliedenergistics2:nether_quartz_sword, 下界石英剑
 appliedenergistics2:nether_quartz_wrench, 下界石英扳手
 appliedenergistics2:nether_quartz_cutting_knife, 下界石英切割刀
 appliedenergistics2:entropy_manipulator, 熵变机械臂
 appliedenergistics2:wireless_terminal, 无线终端
 appliedenergistics2:charged_staff, 充能手杖
+appliedenergistics2:matter_cannon, 物质炮
 appliedenergistics2:portable_cell, 便携元件
 appliedenergistics2:color_applicator, 染色器
 appliedenergistics2:biometric_card, 身份卡
@@ -13562,23 +13573,23 @@ appliedenergistics2:facade:0, 线缆伪装板 - 深色橡木左下-右上向斜�
 appliedenergistics2:facade:0, 线缆伪装板 - 深色橡木镶边木质框架
 appliedenergistics2:facade:0, 线缆伪装板 - 深色橡木水平木质框架
 appliedenergistics2:facade:0, 线缆伪装板 - 深色橡木水平木质框架
-appliedenergistics2:facade:0, 线缆伪装板 - 柚树叶
-appliedenergistics2:facade:0, 线缆伪装板 - 香橼树叶
-appliedenergistics2:facade:0, 线缆伪装板 - 橘子树叶
-appliedenergistics2:facade:0, 线缆伪装板 - 西柚树叶
-appliedenergistics2:facade:0, 线缆伪装板 - 橙子树叶
-appliedenergistics2:facade:0, 线缆伪装板 - 柠檬树叶
-appliedenergistics2:facade:0, 线缆伪装板 - 酸橙树叶
-appliedenergistics2:facade:0, 线缆伪装板 - 柚树叶
-appliedenergistics2:facade:0, 线缆伪装板 - 香橼树叶
-appliedenergistics2:facade:0, 线缆伪装板 - 橘子树叶
-appliedenergistics2:facade:0, 线缆伪装板 - 西柚树叶
-appliedenergistics2:facade:0, 线缆伪装板 - 橙子树叶
-appliedenergistics2:facade:0, 线缆伪装板 - 柠檬树叶
-appliedenergistics2:facade:0, 线缆伪装板 - 酸橙树叶
 appliedenergistics2:facade:0, 线缆伪装板 - 豆腐块
 appliedenergistics2:facade:0, 线缆伪装板 - 柑橘木板
 appliedenergistics2:facade:0, 线缆伪装板 - 柑橘木
+appliedenergistics2:facade:0, 线缆伪装板 - 柚树叶
+appliedenergistics2:facade:0, 线缆伪装板 - 香橼树叶
+appliedenergistics2:facade:0, 线缆伪装板 - 橘子树叶
+appliedenergistics2:facade:0, 线缆伪装板 - 西柚树叶
+appliedenergistics2:facade:0, 线缆伪装板 - 橙子树叶
+appliedenergistics2:facade:0, 线缆伪装板 - 柠檬树叶
+appliedenergistics2:facade:0, 线缆伪装板 - 酸橙树叶
+appliedenergistics2:facade:0, 线缆伪装板 - 柚树叶
+appliedenergistics2:facade:0, 线缆伪装板 - 香橼树叶
+appliedenergistics2:facade:0, 线缆伪装板 - 橘子树叶
+appliedenergistics2:facade:0, 线缆伪装板 - 西柚树叶
+appliedenergistics2:facade:0, 线缆伪装板 - 橙子树叶
+appliedenergistics2:facade:0, 线缆伪装板 - 柠檬树叶
+appliedenergistics2:facade:0, 线缆伪装板 - 酸橙树叶
 appliedenergistics2:facade:0, 线缆伪装板 - 兵营塔占位符
 appliedenergistics2:facade:0, 线缆伪装板 - 路径点占位方块
 appliedenergistics2:facade:0, 线缆伪装板 - 双锂矿石
@@ -13816,7 +13827,6 @@ appliedenergistics2:material:27, 容量卡
 appliedenergistics2:material:53, 合成卡
 appliedenergistics2:material:29, 模糊卡
 appliedenergistics2:material:31, 反相卡
-appliedenergistics2:material:58, 样板扩展卡
 appliedenergistics2:material:26, 红石卡
 appliedenergistics2:material:30, 加速卡
 appliedenergistics2:material:34, 128³-空间组件
@@ -13953,7 +13963,6 @@ appliedenergistics2:part:56, ME智能线缆 - 福鲁伊克斯色
 appliedenergistics2:part:420, ME交换监控器
 appliedenergistics2:part:360, ME合成终端
 appliedenergistics2:part:200, 暗色照明面板
-appliedenergistics2:part:341, ME增广处理样板终端
 appliedenergistics2:part:260, ME输出总线
 appliedenergistics2:part:302, ME流体破坏面板
 appliedenergistics2:part:261, ME流体输出总线
@@ -13971,7 +13980,6 @@ appliedenergistics2:part:480, ME接口终端
 appliedenergistics2:part:100, ME反相触发总线
 appliedenergistics2:part:280, ME标准发信器
 appliedenergistics2:part:160, 亮色照明面板
-appliedenergistics2:part:222, ME矿典存储总线
 appliedenergistics2:part:469, P2P通道 - FE
 appliedenergistics2:part:463, P2P通道 - 流体
 appliedenergistics2:part:465, P2P通道 - EU
@@ -14564,6 +14572,341 @@ rpsideas:cad_case_green, tile.cad_case_green.name
 rpsideas:cad_case_red, tile.cad_case_red.name
 rpsideas:cad_case_black, tile.cad_case_black.name
 baubles:ring:0, 矿工指环
+botania:lexicon, item.lexicon.name
+botania:petal:0, 白色神秘花瓣
+botania:petal:1, 橙色神秘花瓣
+botania:petal:2, 品红色神秘花瓣
+botania:petal:3, 淡蓝色神秘花瓣
+botania:petal:4, 黄色神秘花瓣
+botania:petal:5, 黄绿色神秘花瓣
+botania:petal:6, 粉红色神秘花瓣
+botania:petal:7, 灰色神秘花瓣
+botania:petal:8, 淡灰色神秘花瓣
+botania:petal:9, 青色神秘花瓣
+botania:petal:10, 紫色神秘花瓣
+botania:petal:11, 蓝色神秘花瓣
+botania:petal:12, 棕色神秘花瓣
+botania:petal:13, 绿色神秘花瓣
+botania:petal:14, 红色神秘花瓣
+botania:petal:15, 黑色神秘花瓣
+botania:dye:0, 白色花粉
+botania:dye:1, 橙色花粉
+botania:dye:2, 品红色花粉
+botania:dye:3, 淡蓝色花粉
+botania:dye:4, 黄色花粉
+botania:dye:5, 黄绿色花粉
+botania:dye:6, 粉红色花粉
+botania:dye:7, 灰色花粉
+botania:dye:8, 淡灰色花粉
+botania:dye:9, 青色花粉
+botania:dye:10, 紫色花粉
+botania:dye:11, 蓝色花粉
+botania:dye:12, 棕色花粉
+botania:dye:13, 绿色花粉
+botania:dye:14, 红色花粉
+botania:dye:15, 黑色花粉
+botania:pestleandmortar, item.pestleAndMortar.name
+botania:twigwand:0, 森林法杖
+botania:twigwand:0, 森林法杖
+botania:twigwand:0, 森林法杖
+botania:twigwand:0, 森林法杖
+botania:twigwand:0, 森林法杖
+botania:twigwand:0, 森林法杖
+botania:twigwand:0, 森林法杖
+botania:twigwand:0, 森林法杖
+botania:twigwand:0, 森林法杖
+botania:twigwand:0, 森林法杖
+botania:twigwand:0, 森林法杖
+botania:twigwand:0, 森林法杖
+botania:twigwand:0, 森林法杖
+botania:twigwand:0, 森林法杖
+botania:twigwand:0, 森林法杖
+botania:twigwand:0, 森林法杖
+botania:manaresource:0, 魔力钢锭
+botania:manaresource:1, 魔力珍珠
+botania:manaresource:2, 魔力钻石
+botania:manaresource:3, 活木枝
+botania:manaresource:4, 泰拉钢锭
+botania:manaresource:5, 盖亚之魂
+botania:manaresource:6, 红石根
+botania:manaresource:7, 源质钢锭
+botania:manaresource:8, 精灵尘
+botania:manaresource:9, 龙石
+botania:manaresource:11, 合成占位符
+botania:manaresource:12, 红线
+botania:manaresource:13, 梦之木棍
+botania:manaresource:14, 盖亚魂锭
+botania:manaresource:15, 瓶装末地空气
+botania:manaresource:16, 蕴魔丝线
+botania:manaresource:17, 魔钢粒
+botania:manaresource:18, 泰拉钢粒
+botania:manaresource:19, 源质钢粒
+botania:manaresource:22, 魔源布匹
+botania:manaresource:23, 魔力尘
+botania:lens:0, 魔力透镜
+botania:lens:1, 魔力透镜：速度
+botania:lens:2, 魔力透镜：强度
+botania:lens:3, 魔力透镜：阻力
+botania:lens:4, 魔力透镜：效率
+botania:lens:5, 魔力透镜：反射
+botania:lens:6, 魔力透镜：引力
+botania:lens:7, 魔力透镜：挖掘
+botania:lens:8, 魔力透镜：伤害
+botania:lens:9, 魔力透镜：虚化
+botania:lens:10, 魔力透镜：磁化
+botania:lens:11, 魔力透镜：爆炸
+botania:lens:12, 魔力透镜：推力
+botania:lens:13, 魔力透镜：重力
+botania:lens:14, 魔力透镜：涂色
+botania:lens:15, 魔力透镜：引燃
+botania:lens:16, 魔力透镜：力量
+botania:lens:17, 魔力透镜：闪光
+botania:lens:18, 魔力透镜：传送
+botania:lens:19, 魔力透镜：变向
+botania:lens:20, 魔力透镜：喜庆
+botania:lens:21, 魔力透镜：闪耀
+botania:lens:22, 魔力透镜：信使
+botania:lens:23, 魔力透镜：绊线
+botania:rune:0, 水之符文
+botania:rune:1, 火之符文
+botania:rune:2, 地之符文
+botania:rune:3, 风之符文
+botania:rune:4, 春之符文
+botania:rune:5, 夏之符文
+botania:rune:6, 秋之符文
+botania:rune:7, 冬之符文
+botania:rune:8, 魔力符文
+botania:rune:9, 欲望符文
+botania:rune:10, 暴食符文
+botania:rune:11, 贪婪符文
+botania:rune:12, 懒惰符文
+botania:rune:13, 暴怒符文
+botania:rune:14, 嫉妒符文
+botania:rune:15, 傲慢符文
+botania:manatablet, item.manaTablet.name
+botania:managun, item.manaGun.name
+botania:manacookie, item.manaCookie.name
+botania:fertilizer, item.fertilizer.name
+botania:grassseeds:0, 草地之种
+botania:grassseeds:1, 寒地之种
+botania:grassseeds:2, 菌丝孢子
+botania:grassseeds:3, 干草之种
+botania:grassseeds:4, 黄金草种
+botania:grassseeds:5, 鲜草之种
+botania:grassseeds:6, 焦土草种
+botania:grassseeds:7, 注魔草种
+botania:grassseeds:8, 异变草种
+botania:dirtrod, item.dirtRod.name
+botania:terraformrod, item.terraformRod.name
+botania:grasshorn:0, 狂野号角
+botania:grasshorn:1, 林冠号角
+botania:grasshorn:2, 雪原号角
+botania:manamirror, item.manaMirror.name
+botania:manasteelhelm, item.manasteelHelm.name
+botania:manasteelhelmreveal, item.manasteelHelmReveal.name
+botania:manasteelchest, item.manasteelChest.name
+botania:manasteellegs, item.manasteelLegs.name
+botania:manasteelboots, item.manasteelBoots.name
+botania:manasteelpick, item.manasteelPick.name
+botania:manasteelshovel, item.manasteelShovel.name
+botania:manasteelaxe, item.manasteelAxe.name
+botania:manasteelsword, item.manasteelSword.name
+botania:manasteelshears, item.manasteelShears.name
+botania:terrasteelhelm, item.terrasteelHelm.name
+botania:terrasteelhelmreveal, item.terrasteelHelmReveal.name
+botania:terrasteelchest, item.terrasteelChest.name
+botania:terrasteellegs, item.terrasteelLegs.name
+botania:terrasteelboots, item.terrasteelBoots.name
+botania:terrasword, item.terraSword.name
+botania:tinyplanet, item.tinyPlanet.name
+botania:manaring, item.manaRing.name
+botania:auraring, item.auraRing.name
+botania:manaringgreater, item.manaRingGreater.name
+botania:auraringgreater, item.auraRingGreater.name
+botania:travelbelt, item.travelBelt.name
+botania:knockbackbelt, item.knockbackBelt.name
+botania:icependant, item.icePendant.name
+botania:lavapendant, item.lavaPendant.name
+botania:magnetring, item.magnetRing.name
+botania:waterring, item.waterRing.name
+botania:miningring, item.miningRing.name
+botania:terrapick, item.terraPick.name
+botania:divacharm, item.divaCharm.name
+botania:flighttiara:0, 天翼族之冠
+botania:flighttiara:1, 天翼族之冠
+botania:flighttiara:2, 天翼族之冠
+botania:flighttiara:3, 天翼族之冠
+botania:flighttiara:4, 天翼族之冠
+botania:flighttiara:5, 天翼族之冠
+botania:flighttiara:6, 天翼族之冠
+botania:flighttiara:7, 天翼族之冠
+botania:flighttiara:8, 天翼族之冠
+botania:enderdagger, item.enderDagger.name
+botania:quartz:0, 烟熏石英
+botania:quartz:1, 魔力石英
+botania:quartz:2, 烈焰石英
+botania:quartz:3, 熏香石英
+botania:quartz:4, 红色石英
+botania:quartz:5, 精灵石英
+botania:quartz:6, 金黄石英
+botania:waterrod, item.waterRod.name
+botania:elementiumhelm, item.elementiumHelm.name
+botania:elementiumhelmreveal, item.elementiumHelmReveal.name
+botania:elementiumchest, item.elementiumChest.name
+botania:elementiumlegs, item.elementiumLegs.name
+botania:elementiumboots, item.elementiumBoots.name
+botania:elementiumpick, item.elementiumPick.name
+botania:elementiumshovel, item.elementiumShovel.name
+botania:elementiumaxe, item.elementiumAxe.name
+botania:elementiumsword, item.elementiumSword.name
+botania:elementiumshears, item.elementiumShears.name
+botania:openbucket, item.openBucket.name
+botania:spawnermover, item.spawnerMover.name
+botania:pixiering, item.pixieRing.name
+botania:supertravelbelt, item.superTravelBelt.name
+botania:rainbowrod, item.rainbowRod.name
+botania:tornadorod, item.tornadoRod.name
+botania:firerod, item.fireRod.name
+botania:vineball, item.vineBall.name
+botania:slingshot, 弹弓
+botania:manabottle, item.manaBottle.name
+botania:laputashard:0, 拉普达碎片
+botania:laputashard:4, 拉普达碎片
+botania:laputashard:9, 拉普达碎片
+botania:laputashard:14, 拉普达碎片
+botania:laputashard:19, 拉普达碎片
+botania:virus:0, 僵尸病毒
+botania:virus:1, 骷髅病毒
+botania:reachring, item.reachRing.name
+botania:skydirtrod, item.skyDirtRod.name
+botania:itemfinder, item.itemFinder.name
+botania:superlavapendant, item.superLavaPendant.name
+botania:enderhand, item.enderHand.name
+botania:glasspick, item.glassPick.name
+botania:spark, item.spark.name
+botania:sparkupgrade:0, 火花升级：弥散
+botania:sparkupgrade:1, 火花升级：聚集
+botania:sparkupgrade:2, 火花升级：扩散
+botania:sparkupgrade:3, 火花升级：隔绝
+botania:diviningrod, item.diviningRod.name
+botania:gravityrod, item.gravityRod.name
+botania:manainkwell, item.manaInkwell.name
+botania:vial:0, 魔法玻璃小瓶
+botania:vial:1, 精灵玻璃烧瓶
+botania:brewvial, item.brewVial.name
+botania:brewflask, item.brewFlask.name
+botania:bloodpendant, item.bloodPendant.name
+botania:missilerod, item.missileRod.name
+botania:holycloak, item.holyCloak.name
+botania:unholycloak, item.unholyCloak.name
+botania:balancecloak, item.balanceCloak.name
+botania:craftinghalo, item.craftingHalo.name
+botania:blacklotus:0, 黑莲花
+botania:blacklotus:1, 暗黑莲花
+botania:monocle, item.monocle.name
+botania:clip, item.clip.name
+botania:cobblerod, item.cobbleRod.name
+botania:smeltrod, item.smeltRod.name
+botania:worldseed, item.worldSeed.name
+botania:spellcloth, item.spellCloth.name
+botania:thornchakram:0, 荆棘飞轮
+botania:thornchakram:1, 闪耀飞轮
+botania:overgrowthseed, item.overgrowthSeed.name
+botania:craftpattern:0, 合成模板#1：1x1
+botania:craftpattern:1, 合成模板#2：2x2
+botania:craftpattern:2, 合成模板#3：1x2
+botania:craftpattern:3, 合成模板#4：2x1
+botania:craftpattern:4, 合成模板#5：1x3
+botania:craftpattern:5, 合成模板#6：3x1
+botania:craftpattern:6, 合成模板#7：2x3
+botania:craftpattern:7, 合成模板#8：3x2
+botania:craftpattern:8, 合成模板#9：圈形
+botania:ancientwill:0, 艾琳的意志
+botania:ancientwill:1, 达洛克的意志
+botania:ancientwill:2, 古赞的意志
+botania:ancientwill:3, 托拉格的意志
+botania:ancientwill:4, 威拉克的意志
+botania:ancientwill:5, 卡瑞的意志
+botania:corporeaspark:0, 多媒体火花
+botania:corporeaspark:1, 主媒体火花
+botania:livingwoodbow, item.livingwoodBow.name
+botania:crystalbow, item.crystalBow.name
+botania:cosmetic:0, 黑领结
+botania:cosmetic:1, 黑领带
+botania:cosmetic:2, 红眼镜
+botania:cosmetic:3, 蓬松围巾
+botania:cosmetic:4, 工程师护目镜
+botania:cosmetic:5, 眼罩
+botania:cosmetic:6, 中二眼罩
+botania:cosmetic:7, 红丝带
+botania:cosmetic:8, 粉花蕾
+botania:cosmetic:9, 斑点蝴蝶结
+botania:cosmetic:10, 蓝蝴蝶
+botania:cosmetic:11, 猫耳
+botania:cosmetic:12, 魔女别针
+botania:cosmetic:13, 恶魔尾巴
+botania:cosmetic:14, 神威之眼
+botania:cosmetic:15, 青蛙眼
+botania:cosmetic:16, 四叶草
+botania:cosmetic:17, 时钟之眼
+botania:cosmetic:18, 独角兽之角
+botania:cosmetic:19, 恶魔尖角
+botania:cosmetic:20, 十字头饰
+botania:cosmetic:21, 植物学家徽章
+botania:cosmetic:22, 远古面具
+botania:cosmetic:23, 怪异面具
+botania:cosmetic:24, 外星人天线
+botania:cosmetic:25, 红蓝眼镜
+botania:cosmetic:26, 橙色墨镜
+botania:cosmetic:27, 大鼻子面具
+botania:cosmetic:28, 浓眉毛
+botania:cosmetic:29, 盾牌
+botania:cosmetic:30, 小土豆面具
+botania:cosmetic:31, 任务人标志
+botania:cosmetic:32, 思考姿态
+botania:swapring, item.swapRing.name
+botania:flowerbag, item.flowerBag.name
+botania:phantomink, item.phantomInk.name
+botania:poolminecart, item.poolMinecart.name
+botania:pinkinator, item.pinkinator.name
+botania:infinitefruit, item.infiniteFruit.name
+botania:kingkey, item.kingKey.name
+botania:flugeleye, item.flugelEye.name
+botania:thorring, item.thorRing.name
+botania:odinring, item.odinRing.name
+botania:lokiring, item.lokiRing.name
+botania:dice, item.dice.name
+botania:keepivy, item.keepIvy.name
+botania:blackholetalisman:0, 黑洞护符
+botania:recordgaia1, item.recordGaia1.name
+botania:recordgaia2, item.recordGaia2.name
+botania:temperancestone:0, 节制之石
+botania:incensestick, item.incenseStick.name
+botania:terraaxe, item.terraAxe.name
+botania:waterbowl, item.waterBowl.name
+botania:obediencestick, item.obedienceStick.name
+botania:cacophonium, item.cacophonium.name
+botania:slimebottle:0, 史莱姆罐子
+botania:starsword, item.starSword.name
+botania:exchangerod, item.exchangeRod.name
+botania:magnetringgreater, item.magnetRingGreater.name
+botania:thundersword, item.thunderSword.name
+botania:manaweavehelm, item.manaweaveHelm.name
+botania:manaweavechest, item.manaweaveChest.name
+botania:manaweavelegs, item.manaweaveLegs.name
+botania:manaweaveboots, item.manaweaveBoots.name
+botania:autocraftinghalo, item.autocraftingHalo.name
+botania:gaiahead, item.gaiaHead.name
+botania:sextant, item.sextant.name
+botania:speedupbelt, item.speedUpBelt.name
+botania:baublebox, item.baubleBox.name
+botania:dodgering, item.dodgeRing.name
+botania:invisibilitycloak, item.invisibilityCloak.name
+botania:cloudpendant, item.cloudPendant.name
+botania:supercloudpendant, item.superCloudPendant.name
+botania:thirdeye, item.thirdEye.name
+botania:astrolabe, item.astrolabe.name
+botania:goddesscharm, item.goddessCharm.name
 botania:livingwood0stairs, tile.livingwood0Stairs.name
 botania:livingwood0slab:0, 活木台阶
 botania:livingwood0wall, tile.livingwood0Wall.name
@@ -15056,341 +15399,6 @@ botania:altgrass:3, 焦草草地
 botania:altgrass:4, 注魔草地
 botania:altgrass:5, 异变草地
 botania:animatedtorch, tile.animatedTorch.name
-botania:lexicon, item.lexicon.name
-botania:petal:0, 白色神秘花瓣
-botania:petal:1, 橙色神秘花瓣
-botania:petal:2, 品红色神秘花瓣
-botania:petal:3, 淡蓝色神秘花瓣
-botania:petal:4, 黄色神秘花瓣
-botania:petal:5, 黄绿色神秘花瓣
-botania:petal:6, 粉红色神秘花瓣
-botania:petal:7, 灰色神秘花瓣
-botania:petal:8, 淡灰色神秘花瓣
-botania:petal:9, 青色神秘花瓣
-botania:petal:10, 紫色神秘花瓣
-botania:petal:11, 蓝色神秘花瓣
-botania:petal:12, 棕色神秘花瓣
-botania:petal:13, 绿色神秘花瓣
-botania:petal:14, 红色神秘花瓣
-botania:petal:15, 黑色神秘花瓣
-botania:dye:0, 白色花粉
-botania:dye:1, 橙色花粉
-botania:dye:2, 品红色花粉
-botania:dye:3, 淡蓝色花粉
-botania:dye:4, 黄色花粉
-botania:dye:5, 黄绿色花粉
-botania:dye:6, 粉红色花粉
-botania:dye:7, 灰色花粉
-botania:dye:8, 淡灰色花粉
-botania:dye:9, 青色花粉
-botania:dye:10, 紫色花粉
-botania:dye:11, 蓝色花粉
-botania:dye:12, 棕色花粉
-botania:dye:13, 绿色花粉
-botania:dye:14, 红色花粉
-botania:dye:15, 黑色花粉
-botania:pestleandmortar, item.pestleAndMortar.name
-botania:twigwand:0, 森林法杖
-botania:twigwand:0, 森林法杖
-botania:twigwand:0, 森林法杖
-botania:twigwand:0, 森林法杖
-botania:twigwand:0, 森林法杖
-botania:twigwand:0, 森林法杖
-botania:twigwand:0, 森林法杖
-botania:twigwand:0, 森林法杖
-botania:twigwand:0, 森林法杖
-botania:twigwand:0, 森林法杖
-botania:twigwand:0, 森林法杖
-botania:twigwand:0, 森林法杖
-botania:twigwand:0, 森林法杖
-botania:twigwand:0, 森林法杖
-botania:twigwand:0, 森林法杖
-botania:twigwand:0, 森林法杖
-botania:manaresource:0, 魔力钢锭
-botania:manaresource:1, 魔力珍珠
-botania:manaresource:2, 魔力钻石
-botania:manaresource:3, 活木枝
-botania:manaresource:4, 泰拉钢锭
-botania:manaresource:5, 盖亚之魂
-botania:manaresource:6, 红石根
-botania:manaresource:7, 源质钢锭
-botania:manaresource:8, 精灵尘
-botania:manaresource:9, 龙石
-botania:manaresource:11, 合成占位符
-botania:manaresource:12, 红线
-botania:manaresource:13, 梦之木棍
-botania:manaresource:14, 盖亚魂锭
-botania:manaresource:15, 瓶装末地空气
-botania:manaresource:16, 蕴魔丝线
-botania:manaresource:17, 魔钢粒
-botania:manaresource:18, 泰拉钢粒
-botania:manaresource:19, 源质钢粒
-botania:manaresource:22, 魔源布匹
-botania:manaresource:23, 魔力尘
-botania:lens:0, 魔力透镜
-botania:lens:1, 魔力透镜：速度
-botania:lens:2, 魔力透镜：强度
-botania:lens:3, 魔力透镜：阻力
-botania:lens:4, 魔力透镜：效率
-botania:lens:5, 魔力透镜：反射
-botania:lens:6, 魔力透镜：引力
-botania:lens:7, 魔力透镜：挖掘
-botania:lens:8, 魔力透镜：伤害
-botania:lens:9, 魔力透镜：虚化
-botania:lens:10, 魔力透镜：磁化
-botania:lens:11, 魔力透镜：爆炸
-botania:lens:12, 魔力透镜：推力
-botania:lens:13, 魔力透镜：重力
-botania:lens:14, 魔力透镜：涂色
-botania:lens:15, 魔力透镜：引燃
-botania:lens:16, 魔力透镜：力量
-botania:lens:17, 魔力透镜：闪光
-botania:lens:18, 魔力透镜：传送
-botania:lens:19, 魔力透镜：变向
-botania:lens:20, 魔力透镜：喜庆
-botania:lens:21, 魔力透镜：闪耀
-botania:lens:22, 魔力透镜：信使
-botania:lens:23, 魔力透镜：绊线
-botania:rune:0, 水之符文
-botania:rune:1, 火之符文
-botania:rune:2, 地之符文
-botania:rune:3, 风之符文
-botania:rune:4, 春之符文
-botania:rune:5, 夏之符文
-botania:rune:6, 秋之符文
-botania:rune:7, 冬之符文
-botania:rune:8, 魔力符文
-botania:rune:9, 欲望符文
-botania:rune:10, 暴食符文
-botania:rune:11, 贪婪符文
-botania:rune:12, 懒惰符文
-botania:rune:13, 暴怒符文
-botania:rune:14, 嫉妒符文
-botania:rune:15, 傲慢符文
-botania:manatablet, item.manaTablet.name
-botania:managun, item.manaGun.name
-botania:manacookie, item.manaCookie.name
-botania:fertilizer, item.fertilizer.name
-botania:grassseeds:0, 草地之种
-botania:grassseeds:1, 寒地之种
-botania:grassseeds:2, 菌丝孢子
-botania:grassseeds:3, 干草之种
-botania:grassseeds:4, 黄金草种
-botania:grassseeds:5, 鲜草之种
-botania:grassseeds:6, 焦土草种
-botania:grassseeds:7, 注魔草种
-botania:grassseeds:8, 异变草种
-botania:dirtrod, item.dirtRod.name
-botania:terraformrod, item.terraformRod.name
-botania:grasshorn:0, 狂野号角
-botania:grasshorn:1, 林冠号角
-botania:grasshorn:2, 雪原号角
-botania:manamirror, item.manaMirror.name
-botania:manasteelhelm, item.manasteelHelm.name
-botania:manasteelhelmreveal, item.manasteelHelmReveal.name
-botania:manasteelchest, item.manasteelChest.name
-botania:manasteellegs, item.manasteelLegs.name
-botania:manasteelboots, item.manasteelBoots.name
-botania:manasteelpick, item.manasteelPick.name
-botania:manasteelshovel, item.manasteelShovel.name
-botania:manasteelaxe, item.manasteelAxe.name
-botania:manasteelsword, item.manasteelSword.name
-botania:manasteelshears, item.manasteelShears.name
-botania:terrasteelhelm, item.terrasteelHelm.name
-botania:terrasteelhelmreveal, item.terrasteelHelmReveal.name
-botania:terrasteelchest, item.terrasteelChest.name
-botania:terrasteellegs, item.terrasteelLegs.name
-botania:terrasteelboots, item.terrasteelBoots.name
-botania:terrasword, item.terraSword.name
-botania:tinyplanet, item.tinyPlanet.name
-botania:manaring, item.manaRing.name
-botania:auraring, item.auraRing.name
-botania:manaringgreater, item.manaRingGreater.name
-botania:auraringgreater, item.auraRingGreater.name
-botania:travelbelt, item.travelBelt.name
-botania:knockbackbelt, item.knockbackBelt.name
-botania:icependant, item.icePendant.name
-botania:lavapendant, item.lavaPendant.name
-botania:magnetring, item.magnetRing.name
-botania:waterring, item.waterRing.name
-botania:miningring, item.miningRing.name
-botania:terrapick, item.terraPick.name
-botania:divacharm, item.divaCharm.name
-botania:flighttiara:0, 天翼族之冠
-botania:flighttiara:1, 天翼族之冠
-botania:flighttiara:2, 天翼族之冠
-botania:flighttiara:3, 天翼族之冠
-botania:flighttiara:4, 天翼族之冠
-botania:flighttiara:5, 天翼族之冠
-botania:flighttiara:6, 天翼族之冠
-botania:flighttiara:7, 天翼族之冠
-botania:flighttiara:8, 天翼族之冠
-botania:enderdagger, item.enderDagger.name
-botania:quartz:0, 烟熏石英
-botania:quartz:1, 魔力石英
-botania:quartz:2, 烈焰石英
-botania:quartz:3, 熏香石英
-botania:quartz:4, 红色石英
-botania:quartz:5, 精灵石英
-botania:quartz:6, 金黄石英
-botania:waterrod, item.waterRod.name
-botania:elementiumhelm, item.elementiumHelm.name
-botania:elementiumhelmreveal, item.elementiumHelmReveal.name
-botania:elementiumchest, item.elementiumChest.name
-botania:elementiumlegs, item.elementiumLegs.name
-botania:elementiumboots, item.elementiumBoots.name
-botania:elementiumpick, item.elementiumPick.name
-botania:elementiumshovel, item.elementiumShovel.name
-botania:elementiumaxe, item.elementiumAxe.name
-botania:elementiumsword, item.elementiumSword.name
-botania:elementiumshears, item.elementiumShears.name
-botania:openbucket, item.openBucket.name
-botania:spawnermover, item.spawnerMover.name
-botania:pixiering, item.pixieRing.name
-botania:supertravelbelt, item.superTravelBelt.name
-botania:rainbowrod, item.rainbowRod.name
-botania:tornadorod, item.tornadoRod.name
-botania:firerod, item.fireRod.name
-botania:vineball, item.vineBall.name
-botania:slingshot, 弹弓
-botania:manabottle, item.manaBottle.name
-botania:laputashard:0, 拉普达碎片
-botania:laputashard:4, 拉普达碎片
-botania:laputashard:9, 拉普达碎片
-botania:laputashard:14, 拉普达碎片
-botania:laputashard:19, 拉普达碎片
-botania:virus:0, 僵尸病毒
-botania:virus:1, 骷髅病毒
-botania:reachring, item.reachRing.name
-botania:skydirtrod, item.skyDirtRod.name
-botania:itemfinder, item.itemFinder.name
-botania:superlavapendant, item.superLavaPendant.name
-botania:enderhand, item.enderHand.name
-botania:glasspick, item.glassPick.name
-botania:spark, item.spark.name
-botania:sparkupgrade:0, 火花升级：弥散
-botania:sparkupgrade:1, 火花升级：聚集
-botania:sparkupgrade:2, 火花升级：扩散
-botania:sparkupgrade:3, 火花升级：隔绝
-botania:diviningrod, item.diviningRod.name
-botania:gravityrod, item.gravityRod.name
-botania:manainkwell, item.manaInkwell.name
-botania:vial:0, 魔法玻璃小瓶
-botania:vial:1, 精灵玻璃烧瓶
-botania:brewvial, item.brewVial.name
-botania:brewflask, item.brewFlask.name
-botania:bloodpendant, item.bloodPendant.name
-botania:missilerod, item.missileRod.name
-botania:holycloak, item.holyCloak.name
-botania:unholycloak, item.unholyCloak.name
-botania:balancecloak, item.balanceCloak.name
-botania:craftinghalo, item.craftingHalo.name
-botania:blacklotus:0, 黑莲花
-botania:blacklotus:1, 暗黑莲花
-botania:monocle, item.monocle.name
-botania:clip, item.clip.name
-botania:cobblerod, item.cobbleRod.name
-botania:smeltrod, item.smeltRod.name
-botania:worldseed, item.worldSeed.name
-botania:spellcloth, item.spellCloth.name
-botania:thornchakram:0, 荆棘飞轮
-botania:thornchakram:1, 闪耀飞轮
-botania:overgrowthseed, item.overgrowthSeed.name
-botania:craftpattern:0, 合成模板#1：1x1
-botania:craftpattern:1, 合成模板#2：2x2
-botania:craftpattern:2, 合成模板#3：1x2
-botania:craftpattern:3, 合成模板#4：2x1
-botania:craftpattern:4, 合成模板#5：1x3
-botania:craftpattern:5, 合成模板#6：3x1
-botania:craftpattern:6, 合成模板#7：2x3
-botania:craftpattern:7, 合成模板#8：3x2
-botania:craftpattern:8, 合成模板#9：圈形
-botania:ancientwill:0, 艾琳的意志
-botania:ancientwill:1, 达洛克的意志
-botania:ancientwill:2, 古赞的意志
-botania:ancientwill:3, 托拉格的意志
-botania:ancientwill:4, 威拉克的意志
-botania:ancientwill:5, 卡瑞的意志
-botania:corporeaspark:0, 多媒体火花
-botania:corporeaspark:1, 主媒体火花
-botania:livingwoodbow, item.livingwoodBow.name
-botania:crystalbow, item.crystalBow.name
-botania:cosmetic:0, 黑领结
-botania:cosmetic:1, 黑领带
-botania:cosmetic:2, 红眼镜
-botania:cosmetic:3, 蓬松围巾
-botania:cosmetic:4, 工程师护目镜
-botania:cosmetic:5, 眼罩
-botania:cosmetic:6, 中二眼罩
-botania:cosmetic:7, 红丝带
-botania:cosmetic:8, 粉花蕾
-botania:cosmetic:9, 斑点蝴蝶结
-botania:cosmetic:10, 蓝蝴蝶
-botania:cosmetic:11, 猫耳
-botania:cosmetic:12, 魔女别针
-botania:cosmetic:13, 恶魔尾巴
-botania:cosmetic:14, 神威之眼
-botania:cosmetic:15, 青蛙眼
-botania:cosmetic:16, 四叶草
-botania:cosmetic:17, 时钟之眼
-botania:cosmetic:18, 独角兽之角
-botania:cosmetic:19, 恶魔尖角
-botania:cosmetic:20, 十字头饰
-botania:cosmetic:21, 植物学家徽章
-botania:cosmetic:22, 远古面具
-botania:cosmetic:23, 怪异面具
-botania:cosmetic:24, 外星人天线
-botania:cosmetic:25, 红蓝眼镜
-botania:cosmetic:26, 橙色墨镜
-botania:cosmetic:27, 大鼻子面具
-botania:cosmetic:28, 浓眉毛
-botania:cosmetic:29, 盾牌
-botania:cosmetic:30, 小土豆面具
-botania:cosmetic:31, 任务人标志
-botania:cosmetic:32, 思考姿态
-botania:swapring, item.swapRing.name
-botania:flowerbag, item.flowerBag.name
-botania:phantomink, item.phantomInk.name
-botania:poolminecart, item.poolMinecart.name
-botania:pinkinator, item.pinkinator.name
-botania:infinitefruit, item.infiniteFruit.name
-botania:kingkey, item.kingKey.name
-botania:flugeleye, item.flugelEye.name
-botania:thorring, item.thorRing.name
-botania:odinring, item.odinRing.name
-botania:lokiring, item.lokiRing.name
-botania:dice, item.dice.name
-botania:keepivy, item.keepIvy.name
-botania:blackholetalisman:0, 黑洞护符
-botania:recordgaia1, item.recordGaia1.name
-botania:recordgaia2, item.recordGaia2.name
-botania:temperancestone:0, 节制之石
-botania:incensestick, item.incenseStick.name
-botania:terraaxe, item.terraAxe.name
-botania:waterbowl, item.waterBowl.name
-botania:obediencestick, item.obedienceStick.name
-botania:cacophonium, item.cacophonium.name
-botania:slimebottle:0, 史莱姆罐子
-botania:starsword, item.starSword.name
-botania:exchangerod, item.exchangeRod.name
-botania:magnetringgreater, item.magnetRingGreater.name
-botania:thundersword, item.thunderSword.name
-botania:manaweavehelm, item.manaweaveHelm.name
-botania:manaweavechest, item.manaweaveChest.name
-botania:manaweavelegs, item.manaweaveLegs.name
-botania:manaweaveboots, item.manaweaveBoots.name
-botania:autocraftinghalo, item.autocraftingHalo.name
-botania:gaiahead, item.gaiaHead.name
-botania:sextant, item.sextant.name
-botania:speedupbelt, item.speedUpBelt.name
-botania:baublebox, item.baubleBox.name
-botania:dodgering, item.dodgeRing.name
-botania:invisibilitycloak, item.invisibilityCloak.name
-botania:cloudpendant, item.cloudPendant.name
-botania:supercloudpendant, item.superCloudPendant.name
-botania:thirdeye, item.thirdEye.name
-botania:astrolabe, item.astrolabe.name
-botania:goddesscharm, item.goddessCharm.name
 chisel:auto_chisel, 自动雕凿机
 chisel:chisel_iron, 凿子
 chisel:chisel_diamond, 钻石凿子
@@ -16739,45 +16747,45 @@ tconstruct:slime_vine_purple_end:0, 紫色史莱姆藤蔓
 tconstruct:slime_vine_purple_mid:0, 紫色史莱姆藤蔓
 tconstruct:slime_vine_purple:0, 紫色史莱姆藤蔓
 tconstruct:pattern:0, 空白模具
+tconstruct:pattern:0, 弓弦模具
+tconstruct:pattern:0, 激光传导器模具
+tconstruct:pattern:0, 绑定结模具
 tconstruct:pattern:0, 园艺镰头模具
 tconstruct:pattern:0, 坚韧绑定结模具
-tconstruct:pattern:0, 盘模具
-tconstruct:pattern:0, 胸甲基底模具
-tconstruct:pattern:0, 箭羽模具
-tconstruct:pattern:0, 牌板模具
-tconstruct:pattern:0, 锹头模具
-tconstruct:pattern:0, 碎片模具
-tconstruct:pattern:0, 弓弦模具
-tconstruct:pattern:0, 镰刀头模具
-tconstruct:pattern:0, 刀刃模具
-tconstruct:pattern:0, 头盔基底模具
-tconstruct:pattern:0, 蓄电池模具
-tconstruct:pattern:0, 手柄模具
-tconstruct:pattern:0, 奇术焦镜模具
+tconstruct:pattern:0, 剑刃模具
 tconstruct:pattern:0, 锤头模具
+tconstruct:pattern:0, 护甲板模具
+tconstruct:pattern:0, 磨制工具模具
+tconstruct:pattern:0, 护腿基底模具
+tconstruct:pattern:0, 靴子基底模具
+tconstruct:pattern:0, 宽剑刃模具
+tconstruct:pattern:0, 奇术焦镜模具
+tconstruct:pattern:0, 箭杆模具
+tconstruct:pattern:0, 锹头模具
+tconstruct:pattern:0, 手柄模具
 tconstruct:pattern:0, 大板模具
 tconstruct:pattern:0, 护甲夹板模具
-tconstruct:pattern:0, 抛光工具模具
-tconstruct:pattern:0, 激光传导器模具
-tconstruct:pattern:0, 箭头模具
-tconstruct:pattern:0, 镐头模具
-tconstruct:pattern:0, 宽剑刃模具
-tconstruct:pattern:0, 箭杆模具
-tconstruct:pattern:0, 剑刃模具
 tconstruct:pattern:0, 开掘铲头模具
-tconstruct:pattern:0, 宽斧刃模具
-tconstruct:pattern:0, 绑定结模具
-tconstruct:pattern:0, 斧刃模具
-tconstruct:pattern:0, 十字柄模具
-tconstruct:pattern:0, 磨制工具模具
 tconstruct:pattern:0, 护手模具
+tconstruct:pattern:0, 头盔基底模具
+tconstruct:pattern:0, 蓄电池模具
+tconstruct:pattern:0, 抛光工具模具
+tconstruct:pattern:0, 镰刀头模具
+tconstruct:pattern:0, 刀刃模具
 tconstruct:pattern:0, 坚韧手柄模具
-tconstruct:pattern:0, 靴子基底模具
-tconstruct:pattern:0, 枪管模具
-tconstruct:pattern:0, 护甲板模具
+tconstruct:pattern:0, 胸甲基底模具
+tconstruct:pattern:0, 碎片模具
+tconstruct:pattern:0, 镐头模具
 tconstruct:pattern:0, 宽护手模具
+tconstruct:pattern:0, 箭羽模具
+tconstruct:pattern:0, 枪管模具
+tconstruct:pattern:0, 十字柄模具
 tconstruct:pattern:0, 弓臂模具
-tconstruct:pattern:0, 护腿基底模具
+tconstruct:pattern:0, 盘模具
+tconstruct:pattern:0, 牌板模具
+tconstruct:pattern:0, 斧刃模具
+tconstruct:pattern:0, 箭头模具
+tconstruct:pattern:0, 宽斧刃模具
 tconstruct:shard:0, 熔融木 碎片
 tconstruct:shard:0, 黑暗木 碎片
 tconstruct:shard:0, 血木 碎片
@@ -21053,90 +21061,90 @@ tconstruct:seared_stairs_road:0, 焦黑铺路石楼梯
 tconstruct:seared_stairs_tile:0, 焦黑瓷砖楼梯
 tconstruct:seared_stairs_creeper:0, 焦黑雕琢楼梯
 tconstruct:cast:0, 空白铸模
+tconstruct:cast:0, 弓弦铸模
+tconstruct:cast:0, 激光传导器铸模
+tconstruct:cast:0, 绑定结铸模
 tconstruct:cast:0, 园艺镰头铸模
 tconstruct:cast:0, 坚韧绑定结铸模
-tconstruct:cast:0, 盘铸模
-tconstruct:cast:0, 胸甲基底铸模
-tconstruct:cast:0, 箭羽铸模
-tconstruct:cast:0, 牌板铸模
-tconstruct:cast:0, 锹头铸模
-tconstruct:cast:0, 碎片铸模
-tconstruct:cast:0, 弓弦铸模
-tconstruct:cast:0, 镰刀头铸模
-tconstruct:cast:0, 刀刃铸模
-tconstruct:cast:0, 头盔基底铸模
-tconstruct:cast:0, 蓄电池铸模
-tconstruct:cast:0, 手柄铸模
-tconstruct:cast:0, 奇术焦镜铸模
+tconstruct:cast:0, 剑刃铸模
 tconstruct:cast:0, 锤头铸模
+tconstruct:cast:0, 护甲板铸模
+tconstruct:cast:0, 磨制工具铸模
+tconstruct:cast:0, 护腿基底铸模
+tconstruct:cast:0, 靴子基底铸模
+tconstruct:cast:0, 宽剑刃铸模
+tconstruct:cast:0, 奇术焦镜铸模
+tconstruct:cast:0, 箭杆铸模
+tconstruct:cast:0, 锹头铸模
+tconstruct:cast:0, 手柄铸模
 tconstruct:cast:0, 大板铸模
 tconstruct:cast:0, 护甲夹板铸模
-tconstruct:cast:0, 抛光工具铸模
-tconstruct:cast:0, 激光传导器铸模
-tconstruct:cast:0, 箭头铸模
-tconstruct:cast:0, 镐头铸模
-tconstruct:cast:0, 宽剑刃铸模
-tconstruct:cast:0, 箭杆铸模
-tconstruct:cast:0, 剑刃铸模
 tconstruct:cast:0, 开掘铲头铸模
-tconstruct:cast:0, 宽斧刃铸模
-tconstruct:cast:0, 绑定结铸模
-tconstruct:cast:0, 斧刃铸模
-tconstruct:cast:0, 十字柄铸模
-tconstruct:cast:0, 磨制工具铸模
 tconstruct:cast:0, 护手铸模
+tconstruct:cast:0, 头盔基底铸模
+tconstruct:cast:0, 蓄电池铸模
+tconstruct:cast:0, 抛光工具铸模
+tconstruct:cast:0, 镰刀头铸模
+tconstruct:cast:0, 刀刃铸模
 tconstruct:cast:0, 坚韧手柄铸模
-tconstruct:cast:0, 靴子基底铸模
-tconstruct:cast:0, 枪管铸模
-tconstruct:cast:0, 护甲板铸模
+tconstruct:cast:0, 胸甲基底铸模
+tconstruct:cast:0, 碎片铸模
+tconstruct:cast:0, 镐头铸模
 tconstruct:cast:0, 宽护手铸模
+tconstruct:cast:0, 箭羽铸模
+tconstruct:cast:0, 枪管铸模
+tconstruct:cast:0, 十字柄铸模
 tconstruct:cast:0, 弓臂铸模
-tconstruct:cast:0, 护腿基底铸模
+tconstruct:cast:0, 盘铸模
+tconstruct:cast:0, 牌板铸模
+tconstruct:cast:0, 斧刃铸模
+tconstruct:cast:0, 箭头铸模
+tconstruct:cast:0, 宽斧刃铸模
 tconstruct:cast_custom:0, 锭铸模
 tconstruct:cast_custom:1, 粒铸模
 tconstruct:cast_custom:2, 宝石铸模
 tconstruct:cast_custom:3, 板铸模
 tconstruct:cast_custom:4, 齿轮铸模
 tconstruct:clay_cast:0, item.tconstruct.clay_cast.blank
+tconstruct:clay_cast:0, 弓弦粘土铸模
+tconstruct:clay_cast:0, 激光传导器粘土铸模
+tconstruct:clay_cast:0, 绑定结粘土铸模
 tconstruct:clay_cast:0, 园艺镰头粘土铸模
 tconstruct:clay_cast:0, 坚韧绑定结粘土铸模
-tconstruct:clay_cast:0, 盘粘土铸模
-tconstruct:clay_cast:0, 胸甲基底粘土铸模
-tconstruct:clay_cast:0, 箭羽粘土铸模
-tconstruct:clay_cast:0, 牌板粘土铸模
-tconstruct:clay_cast:0, 锹头粘土铸模
-tconstruct:clay_cast:0, 碎片粘土铸模
-tconstruct:clay_cast:0, 弓弦粘土铸模
-tconstruct:clay_cast:0, 镰刀头粘土铸模
-tconstruct:clay_cast:0, 刀刃粘土铸模
-tconstruct:clay_cast:0, 头盔基底粘土铸模
-tconstruct:clay_cast:0, 蓄电池粘土铸模
-tconstruct:clay_cast:0, 手柄粘土铸模
-tconstruct:clay_cast:0, 奇术焦镜粘土铸模
+tconstruct:clay_cast:0, 剑刃粘土铸模
 tconstruct:clay_cast:0, 锤头粘土铸模
+tconstruct:clay_cast:0, 护甲板粘土铸模
+tconstruct:clay_cast:0, 磨制工具粘土铸模
+tconstruct:clay_cast:0, 护腿基底粘土铸模
+tconstruct:clay_cast:0, 靴子基底粘土铸模
+tconstruct:clay_cast:0, 宽剑刃粘土铸模
+tconstruct:clay_cast:0, 奇术焦镜粘土铸模
+tconstruct:clay_cast:0, 箭杆粘土铸模
+tconstruct:clay_cast:0, 锹头粘土铸模
+tconstruct:clay_cast:0, 手柄粘土铸模
 tconstruct:clay_cast:0, 大板粘土铸模
 tconstruct:clay_cast:0, 护甲夹板粘土铸模
-tconstruct:clay_cast:0, 抛光工具粘土铸模
-tconstruct:clay_cast:0, 激光传导器粘土铸模
-tconstruct:clay_cast:0, 箭头粘土铸模
-tconstruct:clay_cast:0, 镐头粘土铸模
-tconstruct:clay_cast:0, 宽剑刃粘土铸模
-tconstruct:clay_cast:0, 箭杆粘土铸模
-tconstruct:clay_cast:0, 剑刃粘土铸模
 tconstruct:clay_cast:0, 开掘铲头粘土铸模
-tconstruct:clay_cast:0, 宽斧刃粘土铸模
-tconstruct:clay_cast:0, 绑定结粘土铸模
-tconstruct:clay_cast:0, 斧刃粘土铸模
-tconstruct:clay_cast:0, 十字柄粘土铸模
-tconstruct:clay_cast:0, 磨制工具粘土铸模
 tconstruct:clay_cast:0, 护手粘土铸模
+tconstruct:clay_cast:0, 头盔基底粘土铸模
+tconstruct:clay_cast:0, 蓄电池粘土铸模
+tconstruct:clay_cast:0, 抛光工具粘土铸模
+tconstruct:clay_cast:0, 镰刀头粘土铸模
+tconstruct:clay_cast:0, 刀刃粘土铸模
 tconstruct:clay_cast:0, 坚韧手柄粘土铸模
-tconstruct:clay_cast:0, 靴子基底粘土铸模
-tconstruct:clay_cast:0, 枪管粘土铸模
-tconstruct:clay_cast:0, 护甲板粘土铸模
+tconstruct:clay_cast:0, 胸甲基底粘土铸模
+tconstruct:clay_cast:0, 碎片粘土铸模
+tconstruct:clay_cast:0, 镐头粘土铸模
 tconstruct:clay_cast:0, 宽护手粘土铸模
+tconstruct:clay_cast:0, 箭羽粘土铸模
+tconstruct:clay_cast:0, 枪管粘土铸模
+tconstruct:clay_cast:0, 十字柄粘土铸模
 tconstruct:clay_cast:0, 弓臂粘土铸模
-tconstruct:clay_cast:0, 护腿基底粘土铸模
+tconstruct:clay_cast:0, 盘粘土铸模
+tconstruct:clay_cast:0, 牌板粘土铸模
+tconstruct:clay_cast:0, 斧刃粘土铸模
+tconstruct:clay_cast:0, 箭头粘土铸模
+tconstruct:clay_cast:0, 宽斧刃粘土铸模
 tconstruct:stone_torch:0, 石柄火把
 tconstruct:stone_ladder:0, 石梯
 tconstruct:punji:0, 尖竹钉
@@ -23411,12 +23419,6 @@ cfm:item_kebab_cooked, 烤肉串
 cfm:item_crow_bar, 撬棍
 cfm:ceiling_fan_fans, item.ceiling_fan_fans.name
 cfm:tv_remote, 电视遥控器
-mets:niobium_ore, 铌矿石
-mets:titanium_ore, 钛矿石
-mets:titanium_block, 钛块
-mets:titanium_scaffold, 钛制钻机框架
-mets:geomagnetic_pedestal, 地磁发电机基座
-mets:geomagnetic_antenna, 地磁发电机天线
 mets:super_lapotron_crystal, §b超级兰波顿水晶
 mets:charging_super_lapotron_crystal, §b超级兰波顿充电电池
 mets:advanced_iridium_sword, §b量子剑
@@ -23490,6 +23492,12 @@ mets:energy_crystal_belt, 能量水晶电池腰带
 mets:lapotron_crystal_belt, §e兰波顿电池腰带
 mets:electric_life_support_ring, §b终极维生指环
 mets:electric_flight_ring, §b电力飞行指环
+mets:niobium_ore, 铌矿石
+mets:titanium_ore, 钛矿石
+mets:titanium_block, 钛块
+mets:titanium_scaffold, 钛制钻机框架
+mets:geomagnetic_pedestal, 地磁发电机基座
+mets:geomagnetic_antenna, 地磁发电机天线
 artisanworktables:tab_icon, tile.artisanworktables.tab_icon.name
 artisanworktables:worktable:0, 裁缝工作台
 artisanworktables:worktable:1, 木匠工作台
@@ -26499,8 +26507,24 @@ structurize:blocktimberframe_dark_oak_downgated, 深色橡木镶边木质框架
 structurize:blocktimberframe_dark_oak_horizontalplain, 深色橡木水平木质框架
 structurize:blocktimberframe_dark_oak_horizontalnocap, 深色橡木水平木质框架
 structurize:multiblock, 多方块结构
+cuisine:kitchen_knife, 菜刀
+cuisine:manual, 烹饪笔记
+cuisine:door, 柑橘木门
+cuisine:drink, 饮品
+cuisine:material:0, 木手臂
+cuisine:material:1, 木手柄
+cuisine:material:2, 盐
+cuisine:material:3, 粗盐
+cuisine:material:4, 辣椒粉
+cuisine:material:5, 花椒粉
+cuisine:material:6, 竹炭
+cuisine:material:7, 粗制糖
+cuisine:mortar:0, 臼
+cuisine:mortar:1, 装水的臼
+cuisine:ingredient, item.cuisine.ingredient.name
+cuisine:glass_bottle, %s瓶
+cuisine:dish, 菜品
 cuisine:wok, 锅
-cuisine:placed_dish, 盘子
 cuisine:crops:0, 花生
 cuisine:crops:1, 芝麻
 cuisine:crops:2, 大豆
@@ -26523,25 +26547,10 @@ cuisine:crops:18, 洋葱
 cuisine:crops:19, 茄子
 cuisine:crops:20, 菠菜
 cuisine:crops:21, 竹笋
-cuisine:dish, 菜品
-cuisine:material:0, 木手臂
-cuisine:material:1, 木手柄
-cuisine:material:2, 盐
-cuisine:material:3, 粗盐
-cuisine:material:4, 辣椒粉
-cuisine:material:5, 花椒粉
-cuisine:material:6, 竹炭
-cuisine:material:7, 粗制糖
 cuisine:iron_spatula, 炒菜铲
-cuisine:ingredient, item.cuisine.ingredient.name
-cuisine:kitchen_knife, 菜刀
-cuisine:spice_bottle:0, 调料瓶
 cuisine:fan, 扇子
-cuisine:mortar:0, 臼
-cuisine:mortar:1, 装水的臼
-cuisine:door, 柑橘木门
-cuisine:drink, 饮品
-cuisine:boat, 柑橘木船
+cuisine:drinkro, Drinkro™
+cuisine:placed_dish, 盘子
 cuisine:food:0, 豆腐
 cuisine:food:1, 面粉
 cuisine:food:2, 面团
@@ -26558,22 +26567,10 @@ cuisine:food:12, 甜橙
 cuisine:food:13, 柠檬
 cuisine:food:14, 西柚
 cuisine:food:15, 酸橙
-cuisine:drinkro, Drinkro™
-cuisine:manual, 烹饪笔记
-cuisine:glass_bottle, %s瓶
-cuisine:trapdoor, 柑橘木活板门
-cuisine:earthen_basin, 陶盆
-cuisine:fence, 柑橘木栅栏
-cuisine:mill, 磨
-cuisine:bamboo, 竹子
-cuisine:sapling:0, 柚树苗
-cuisine:sapling:1, 香橼树苗
-cuisine:sapling:2, 橘子树苗
-cuisine:sapling:3, 西柚树苗
-cuisine:sapling:4, 橙子树苗
-cuisine:sapling:5, 柠檬树苗
-cuisine:sapling:6, 酸橙树苗
-cuisine:fence_gate, 柑橘木栅栏门
+cuisine:spice_bottle:0, 调料瓶
+cuisine:boat, 柑橘木船
+cuisine:tofu_block, 豆腐块
+cuisine:chopping_board, 砧板
 cuisine:earthen_basin_colored:0, 白色陶盆
 cuisine:earthen_basin_colored:1, 橙色陶盆
 cuisine:earthen_basin_colored:2, 品红色陶盆
@@ -26590,7 +26587,25 @@ cuisine:earthen_basin_colored:12, 棕色陶盆
 cuisine:earthen_basin_colored:13, 绿色陶盆
 cuisine:earthen_basin_colored:14, 红色陶盆
 cuisine:earthen_basin_colored:15, 黑色陶盆
-cuisine:chopping_board, 砧板
+cuisine:planks, 柑橘木板
+cuisine:mill, 磨
+cuisine:log, 柑橘木
+cuisine:earthen_basin, 陶盆
+cuisine:fence_gate, 柑橘木栅栏门
+cuisine:trapdoor, 柑橘木活板门
+cuisine:fire_pit:0, 火塘
+cuisine:fire_pit:1, 火塘和铁锅
+cuisine:fire_pit:2, 烧烤架
+cuisine:sapling:0, 柚树苗
+cuisine:sapling:1, 香橼树苗
+cuisine:sapling:2, 橘子树苗
+cuisine:sapling:3, 西柚树苗
+cuisine:sapling:4, 橙子树苗
+cuisine:sapling:5, 柠檬树苗
+cuisine:sapling:6, 酸橙树苗
+cuisine:fence, 柑橘木栅栏
+cuisine:wooden_basin, 木盆
+cuisine:bamboo, 竹子
 cuisine:sheared_leaves:0, 柚树叶
 cuisine:sheared_leaves:1, 香橼树叶
 cuisine:sheared_leaves:2, 橘子树叶
@@ -26605,14 +26620,7 @@ cuisine:sheared_leaves:10, 西柚树叶
 cuisine:sheared_leaves:11, 橙子树叶
 cuisine:sheared_leaves:12, 柠檬树叶
 cuisine:sheared_leaves:13, 酸橙树叶
-cuisine:tofu_block, 豆腐块
-cuisine:planks, 柑橘木板
 cuisine:jar, 罐子
-cuisine:wooden_basin, 木盆
-cuisine:fire_pit:0, 火塘
-cuisine:fire_pit:1, 火塘和铁锅
-cuisine:fire_pit:2, 烧烤架
-cuisine:log, 柑橘木
 minecolonies:supplychestdeployer, 补给船箱子
 minecolonies:scepterpermission, 权限权杖
 minecolonies:caliper, 卡尺
@@ -26680,6 +26688,79 @@ minecolonies:blockpostbox, 邮箱
 minecolonies:decorationcontroller, 装饰控制器
 minecolonies:composted_dirt:0, 堆肥土
 solcarrot:food_book, 食物书
+matteroverdrive:dilithium_ore, 双锂矿石
+matteroverdrive:tritanium_ore, 三钛矿石
+matteroverdrive:tritanium_block, 三钛合金块
+matteroverdrive:machine_hull, 机械外壳
+matteroverdrive:decomposer, 物质分解机
+matteroverdrive:matter_recycler, 物质回收机
+matteroverdrive:replicator, 物质重组机
+matteroverdrive:matter_pipe, 物质运输管道
+matteroverdrive:heavy_matter_pipe, 重型物质运输管道
+matteroverdrive:network_pipe, 物质网络线缆
+matteroverdrive:network_router, 物质网络路由器
+matteroverdrive:matter_analyzer, 物质分析仪
+matteroverdrive:pattern_monitor, 物质网络终端
+matteroverdrive:pattern_storage, 模式保存仪
+matteroverdrive:network_switch, 物质网络转换器
+matteroverdrive:solar_panel, 太阳能板（未完成）
+matteroverdrive:gravitational_anomaly, 引力异常点
+matteroverdrive:gravitational_stabilizer, 引力稳定器
+matteroverdrive:fusion_reactor_controller, 湮灭反应堆控制器
+matteroverdrive:fusion_reactor_coil, 反应堆外层线圈
+matteroverdrive:fusion_reactor_io, 湮灭反应堆接口
+matteroverdrive:matter_plasma, 等离子物质
+matteroverdrive:molten_tritanium, 熔融三钛合金
+matteroverdrive:tritanium_crate, 三钛货箱
+matteroverdrive:tritanium_crate_white, 白色三钛货箱
+matteroverdrive:tritanium_crate_orange, 橙色三钛货箱
+matteroverdrive:tritanium_crate_magenta, 品红色三钛货箱
+matteroverdrive:tritanium_crate_light_blue, 淡蓝色三钛货箱
+matteroverdrive:tritanium_crate_yellow, 黄色三钛货箱
+matteroverdrive:tritanium_crate_lime, 黄绿色三钛货箱
+matteroverdrive:tritanium_crate_pink, 粉红色三钛货箱
+matteroverdrive:tritanium_crate_gray, 灰色三钛货箱
+matteroverdrive:tritanium_crate_silver, 淡灰色三钛货箱
+matteroverdrive:tritanium_crate_cyan, 青色三钛货箱
+matteroverdrive:tritanium_crate_purple, 紫色三钛货箱
+matteroverdrive:tritanium_crate_blue, 蓝色三钛货箱
+matteroverdrive:tritanium_crate_brown, 棕色三钛货箱
+matteroverdrive:tritanium_crate_green, 绿色三钛货箱
+matteroverdrive:tritanium_crate_red, 红色三钛货箱
+matteroverdrive:tritanium_crate_black, 黑色三钛货箱
+matteroverdrive:inscriber, 分子刻录仪
+matteroverdrive:contract_market, 赏金公会
+matteroverdrive:android_spawner, 机械人刷怪箱
+matteroverdrive:spacetime_accelerator, 时空加速仪
+matteroverdrive:pylon, 维度塔
+matteroverdrive:transporter, 传送仪
+matteroverdrive:star_map, 星图
+matteroverdrive:holo_sign, 全息显示屏
+matteroverdrive:weapon_station, 武器装配台
+matteroverdrive:android_station, 机械人改造台
+matteroverdrive:charging_station, 充气站
+matteroverdrive:decorative.stripes, 警戒纹板材
+matteroverdrive:decorative.coils, 线圈
+matteroverdrive:decorative.clean, 平滑三钛板材
+matteroverdrive:decorative.vent.dark, 深色通风口
+matteroverdrive:decorative.vent.bright, 通风口
+matteroverdrive:decorative.holo_matrix, 全息甲板
+matteroverdrive:decorative.tritanium_plate, 三钛板材
+matteroverdrive:decorative.tritanium_plate_stripe, 导向三钛板材
+matteroverdrive:decorative.carbon_fiber_plate, 碳纤维板材
+matteroverdrive:decorative.matter_tube, 物质管道
+matteroverdrive:decorative.beams, 三钛格栅
+matteroverdrive:decorative.floor_tiles, 瓷地砖
+matteroverdrive:decorative.floor_tile, Colored Floor Tile
+matteroverdrive:decorative.floor_noise, 油地毡
+matteroverdrive:decorative.white_plate, 软壁隔板
+matteroverdrive:decorative.separator, 三钛导轨
+matteroverdrive:decorative.tritanium_lamp, 三钛灯饰
+matteroverdrive:decorative.tritanium_plate_colored, 染色三钛板材
+matteroverdrive:decorative.engine_exhaust_plasma, 等离子引擎排流
+matteroverdrive:microwave, 微波炉
+matteroverdrive:industrial_glass, 工业玻璃
+matteroverdrive:new_tritanium_crate, New Tritanium Crate
 matteroverdrive:dilithium_crystal, 二锂晶体
 matteroverdrive:tritanium_ingot, 三钛合金锭
 matteroverdrive:tritanium_nugget, 三钛合金粒
@@ -26782,79 +26863,6 @@ matteroverdrive:record_transformation, 音乐唱片
 matteroverdrive:artifact, 未知工艺品
 matteroverdrive:trilithium_crystal, 纯净三锂晶体
 matteroverdrive:quantum_fold_manipulator, 量子折叠操纵仪
-matteroverdrive:dilithium_ore, 双锂矿石
-matteroverdrive:tritanium_ore, 三钛矿石
-matteroverdrive:tritanium_block, 三钛合金块
-matteroverdrive:machine_hull, 机械外壳
-matteroverdrive:decomposer, 物质分解机
-matteroverdrive:matter_recycler, 物质回收机
-matteroverdrive:replicator, 物质重组机
-matteroverdrive:matter_pipe, 物质运输管道
-matteroverdrive:heavy_matter_pipe, 重型物质运输管道
-matteroverdrive:network_pipe, 物质网络线缆
-matteroverdrive:network_router, 物质网络路由器
-matteroverdrive:matter_analyzer, 物质分析仪
-matteroverdrive:pattern_monitor, 物质网络终端
-matteroverdrive:pattern_storage, 模式保存仪
-matteroverdrive:network_switch, 物质网络转换器
-matteroverdrive:solar_panel, 太阳能板（未完成）
-matteroverdrive:gravitational_anomaly, 引力异常点
-matteroverdrive:gravitational_stabilizer, 引力稳定器
-matteroverdrive:fusion_reactor_controller, 湮灭反应堆控制器
-matteroverdrive:fusion_reactor_coil, 反应堆外层线圈
-matteroverdrive:fusion_reactor_io, 湮灭反应堆接口
-matteroverdrive:matter_plasma, 等离子物质
-matteroverdrive:molten_tritanium, 熔融三钛合金
-matteroverdrive:tritanium_crate, 三钛货箱
-matteroverdrive:tritanium_crate_white, 白色三钛货箱
-matteroverdrive:tritanium_crate_orange, 橙色三钛货箱
-matteroverdrive:tritanium_crate_magenta, 品红色三钛货箱
-matteroverdrive:tritanium_crate_light_blue, 淡蓝色三钛货箱
-matteroverdrive:tritanium_crate_yellow, 黄色三钛货箱
-matteroverdrive:tritanium_crate_lime, 黄绿色三钛货箱
-matteroverdrive:tritanium_crate_pink, 粉红色三钛货箱
-matteroverdrive:tritanium_crate_gray, 灰色三钛货箱
-matteroverdrive:tritanium_crate_silver, 淡灰色三钛货箱
-matteroverdrive:tritanium_crate_cyan, 青色三钛货箱
-matteroverdrive:tritanium_crate_purple, 紫色三钛货箱
-matteroverdrive:tritanium_crate_blue, 蓝色三钛货箱
-matteroverdrive:tritanium_crate_brown, 棕色三钛货箱
-matteroverdrive:tritanium_crate_green, 绿色三钛货箱
-matteroverdrive:tritanium_crate_red, 红色三钛货箱
-matteroverdrive:tritanium_crate_black, 黑色三钛货箱
-matteroverdrive:inscriber, 分子刻录仪
-matteroverdrive:contract_market, 赏金公会
-matteroverdrive:android_spawner, 机械人刷怪箱
-matteroverdrive:spacetime_accelerator, 时空加速仪
-matteroverdrive:pylon, 维度塔
-matteroverdrive:transporter, 传送仪
-matteroverdrive:star_map, 星图
-matteroverdrive:holo_sign, 全息显示屏
-matteroverdrive:weapon_station, 武器装配台
-matteroverdrive:android_station, 机械人改造台
-matteroverdrive:charging_station, 充气站
-matteroverdrive:decorative.stripes, 警戒纹板材
-matteroverdrive:decorative.coils, 线圈
-matteroverdrive:decorative.clean, 平滑三钛板材
-matteroverdrive:decorative.vent.dark, 深色通风口
-matteroverdrive:decorative.vent.bright, 通风口
-matteroverdrive:decorative.holo_matrix, 全息甲板
-matteroverdrive:decorative.tritanium_plate, 三钛板材
-matteroverdrive:decorative.tritanium_plate_stripe, 导向三钛板材
-matteroverdrive:decorative.carbon_fiber_plate, 碳纤维板材
-matteroverdrive:decorative.matter_tube, 物质管道
-matteroverdrive:decorative.beams, 三钛格栅
-matteroverdrive:decorative.floor_tiles, 瓷地砖
-matteroverdrive:decorative.floor_tile, Colored Floor Tile
-matteroverdrive:decorative.floor_noise, 油地毡
-matteroverdrive:decorative.white_plate, 软壁隔板
-matteroverdrive:decorative.separator, 三钛导轨
-matteroverdrive:decorative.tritanium_lamp, 三钛灯饰
-matteroverdrive:decorative.tritanium_plate_colored, 染色三钛板材
-matteroverdrive:decorative.engine_exhaust_plasma, 等离子引擎排流
-matteroverdrive:microwave, 微波炉
-matteroverdrive:industrial_glass, 工业玻璃
-matteroverdrive:new_tritanium_crate, New Tritanium Crate
 ae2fc:fluid_discretizer, ME流体离散器
 ae2fc:fluid_pattern_encoder, 流体适配型样板编码台
 ae2fc:fluid_packet_decoder, ME流体封包解码器
@@ -28265,6 +28273,41 @@ threng:big_assembler:2, 大型分子装配室控制器
 threng:big_assembler:3, 大型分子装配室样板核心
 threng:big_assembler:4, 大型分子装配室处理核心
 threng:big_assembler:5, 大型分子装配室IO端口
+threng:material:0, 福鲁伊克斯钢锭
+threng:material:1, 含碳福鲁伊克斯复合物
+threng:material:2, 福鲁伊克斯镀层铁锭
+threng:material:3, 煤粉
+threng:material:4, 福鲁伊克斯逻辑单元
+threng:material:5, 共振水晶
+threng:material:6, 大规模并行处理器
+threng:material:7, 推测核心(1x)
+threng:material:8, 推测核心(2x)
+threng:material:9, 推测核心(4x)
+threng:material:10, 推测核心(8x)
+threng:material:11, 推测核心(16x)
+threng:material:12, 推测核心(32x)
+threng:material:13, 推测核心(64x)
+threng:material:14, 推测处理器
+tconevo:earth_material_block:0, 粉色史莱姆泥土
+tconevo:metal_block:0, 飞龙金属块
+tconevo:metal_block:1, 神龙金属块
+tconevo:metal_block:2, 混沌金属块
+tconevo:metal_block:3, 蕴魔源质金属块
+tconevo:metal_block:4, 元金块
+tconevo:metal_block:5, 束缚金属块
+tconevo:metal_block:6, 感知金属块
+tconevo:metal_block:7, 能量金属块
+tconevo:metal_block:8, UU金属块
+psicosts:psi_cell:0, PSI 单元
+psicosts:psi_cell:0, PSI 单元
+psicosts:psi_cell:1, PSI-O单元
+psicosts:psi_cell:1, PSI-O单元
+psicosts:psi_cell:2, PSI-达因单元
+psicosts:psi_cell:2, PSI-达因单元
+psicosts:psi_cell:3, PSI-力单元
+psicosts:psi_cell:3, PSI-力单元
+psicosts:creative_cell, PSI 之星
+psicosts:psi_hypostim, PSI 刺激器
 psicaster:caster, 自动演算机
 psicosts:material_glassy:0, PSI 玻璃
 psicosts:flux_resonator, 通量共振器
@@ -28308,44 +28351,9 @@ tconevo:metal:43, UU金属板
 tconevo:metal:44, UU金属齿轮
 tconevo:edible:0, 生肉锭
 tconevo:edible:1, 熟肉锭
-tconevo:earth_material_block:0, 粉色史莱姆泥土
-tconevo:metal_block:0, 飞龙金属块
-tconevo:metal_block:1, 神龙金属块
-tconevo:metal_block:2, 混沌金属块
-tconevo:metal_block:3, 蕴魔源质金属块
-tconevo:metal_block:4, 元金块
-tconevo:metal_block:5, 束缚金属块
-tconevo:metal_block:6, 感知金属块
-tconevo:metal_block:7, 能量金属块
-tconevo:metal_block:8, UU金属块
-psicosts:psi_cell:0, PSI 单元
-psicosts:psi_cell:0, PSI 单元
-psicosts:psi_cell:1, PSI-O单元
-psicosts:psi_cell:1, PSI-O单元
-psicosts:psi_cell:2, PSI-达因单元
-psicosts:psi_cell:2, PSI-达因单元
-psicosts:psi_cell:3, PSI-力单元
-psicosts:psi_cell:3, PSI-力单元
-psicosts:creative_cell, PSI 之星
-psicosts:psi_hypostim, PSI 刺激器
-threng:material:0, 福鲁伊克斯钢锭
-threng:material:1, 含碳福鲁伊克斯复合物
-threng:material:2, 福鲁伊克斯镀层铁锭
-threng:material:3, 煤粉
-threng:material:4, 福鲁伊克斯逻辑单元
-threng:material:5, 共振水晶
-threng:material:6, 大规模并行处理器
-threng:material:7, 推测核心(1x)
-threng:material:8, 推测核心(2x)
-threng:material:9, 推测核心(4x)
-threng:material:10, 推测核心(8x)
-threng:material:11, 推测核心(16x)
-threng:material:12, 推测核心(32x)
-threng:material:13, 推测核心(64x)
-threng:material:14, 推测处理器
-psicosts:mana_resonator, PSI 能棱镜基座
 psicosts:blood_resonator, 血红 PSI 装置
 psicosts:starlight_resonator, 寒光投射器
+psicosts:mana_resonator, PSI 能棱镜基座
 tconevo:mana_giver, 内部物品
 tconevo:part_arcane_focus:0, 圆石 奇术焦镜
 tconevo:part_arcane_focus:0, 银 奇术焦镜
