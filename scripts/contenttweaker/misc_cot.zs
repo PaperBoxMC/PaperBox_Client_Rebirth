@@ -46,6 +46,7 @@ val PCG = <contenttweaker:programming_circuit_g>;
 
 <ore:programmingCircuit>.add(PC0, PCA, PCB, PCC, PCD, PCE, PCF, PCG);
 
+/*
 val CBBU = <contenttweaker:circuit_board_basic_universal>;
 val CBAU = <contenttweaker:circuit_board_advanced_universal>;
 val CBEU = <contenttweaker:circuit_board_elite_universal>;
@@ -68,3 +69,4 @@ CBEXU.addTooltip("§b向下兼容低等级电路板");
 <ore:circuituniversalElite>.add(CBEU, CBUU, CBEXU);
 <ore:circuituniversalUltimate>.add(CBUU, CBEXU);
 <ore:circuituniversalExtreme>.add(CBEXU);
+*/

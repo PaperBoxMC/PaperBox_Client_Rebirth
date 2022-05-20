@@ -226,7 +226,7 @@
             "y": -2,
             "z": 0,
             "elements": [
-                "ic2:resource@13"
+                "rpsideas:bright_plate@2"
             ]
         },
         {
@@ -234,7 +234,7 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "chisel:factory@11"
+                "matteroverdrive:decorative.tritanium_plate_stripe@0"
             ]
         },
         {
@@ -250,7 +250,7 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "chisel:factory@11"
+                "matteroverdrive:machine_hull@0"
             ]
         },
         {
@@ -266,7 +266,7 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "chisel:factory@11"
+                "matteroverdrive:machine_hull@0"
             ]
         },
         {
@@ -274,7 +274,7 @@
             "y": -2,
             "z": 0,
             "elements": [
-                "ic2:resource@13"
+                "rpsideas:bright_plate@2"
             ]
         },
         {
@@ -290,7 +290,7 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "chisel:factory@11"
+                "matteroverdrive:machine_hull@0"
             ]
         },
         {
@@ -314,7 +314,7 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "chisel:factory@11"
+                "matteroverdrive:decorative.tritanium_plate_stripe@0"
             ]
         },
         {
@@ -354,7 +354,7 @@
             "y": -3,
             "z": 0,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.stripes@0"
             ]
         },
         {
@@ -438,43 +438,11 @@
             ]
         },
         {
-            "x": -2,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "ic2:uu_matter@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "ic2:uu_matter@0"
-            ]
-        },
-        {
             "x": 1,
             "y": 7,
             "z": 2,
             "elements": [
                 "chisel:factory1@4"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "ic2:uu_matter@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "ic2:uu_matter@0"
             ]
         },
         {
@@ -491,14 +459,6 @@
             "z": 0,
             "elements": [
                 "chisel:technical@9"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "ic2:uu_matter@0"
             ]
         },
         {
@@ -538,7 +498,7 @@
             "y": -3,
             "z": 0,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.stripes@0"
             ]
         },
         {
@@ -762,7 +722,7 @@
             "y": -3,
             "z": 7,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.tritanium_plate_stripe@0"
             ]
         },
         {
@@ -770,7 +730,7 @@
             "y": -3,
             "z": 7,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.stripes@0"
             ]
         },
         {
@@ -778,7 +738,7 @@
             "y": -3,
             "z": 7,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.tritanium_plate_stripe@0"
             ]
         },
         {
@@ -786,7 +746,7 @@
             "y": -3,
             "z": 7,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.stripes@0"
             ]
         },
         {
@@ -794,7 +754,7 @@
             "y": -3,
             "z": 7,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.tritanium_plate_stripe@0"
             ]
         },
         {
@@ -802,7 +762,7 @@
             "y": -3,
             "z": 7,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.stripes@0"
             ]
         },
         {
@@ -818,7 +778,7 @@
             "y": -3,
             "z": 7,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.tritanium_plate_stripe@0"
             ]
         },
         {
@@ -826,7 +786,7 @@
             "y": -3,
             "z": 7,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.stripes@0"
             ]
         },
         {
@@ -834,7 +794,7 @@
             "y": -3,
             "z": 7,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.tritanium_plate_stripe@0"
             ]
         },
         {
@@ -842,7 +802,7 @@
             "y": -3,
             "z": 7,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.stripes@0"
             ]
         },
         {
@@ -850,7 +810,7 @@
             "y": -3,
             "z": 7,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.tritanium_plate_stripe@0"
             ]
         },
         {
@@ -858,7 +818,7 @@
             "y": -3,
             "z": 7,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.stripes@0"
             ]
         },
         {
@@ -866,7 +826,7 @@
             "y": -3,
             "z": 7,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.tritanium_plate_stripe@0"
             ]
         },
         {
@@ -874,7 +834,7 @@
             "y": -3,
             "z": 7,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.stripes@0"
             ]
         },
         {
@@ -882,7 +842,7 @@
             "y": -3,
             "z": 7,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.tritanium_plate_stripe@0"
             ]
         },
         {
@@ -1058,7 +1018,7 @@
             "y": -3,
             "z": 5,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.tritanium_plate_stripe@0"
             ]
         },
         {
@@ -1234,7 +1194,7 @@
             "y": -3,
             "z": 5,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.tritanium_plate_stripe@0"
             ]
         },
         {
@@ -1354,7 +1314,7 @@
             "y": -3,
             "z": -7,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.tritanium_plate_stripe@0"
             ]
         },
         {
@@ -1362,7 +1322,7 @@
             "y": -3,
             "z": -7,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.stripes@0"
             ]
         },
         {
@@ -1370,7 +1330,7 @@
             "y": -3,
             "z": -7,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.tritanium_plate_stripe@0"
             ]
         },
         {
@@ -1378,7 +1338,7 @@
             "y": -3,
             "z": -7,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.stripes@0"
             ]
         },
         {
@@ -1386,7 +1346,7 @@
             "y": -3,
             "z": -7,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.tritanium_plate_stripe@0"
             ]
         },
         {
@@ -1402,7 +1362,7 @@
             "y": -3,
             "z": -7,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.stripes@0"
             ]
         },
         {
@@ -1418,7 +1378,7 @@
             "y": -3,
             "z": -7,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.tritanium_plate_stripe@0"
             ]
         },
         {
@@ -1426,7 +1386,7 @@
             "y": -3,
             "z": -7,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.stripes@0"
             ]
         },
         {
@@ -1450,7 +1410,7 @@
             "y": -3,
             "z": -7,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.tritanium_plate_stripe@0"
             ]
         },
         {
@@ -1466,7 +1426,7 @@
             "y": -3,
             "z": -7,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.stripes@0"
             ]
         },
         {
@@ -1474,7 +1434,7 @@
             "y": -3,
             "z": -7,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.tritanium_plate_stripe@0"
             ]
         },
         {
@@ -1498,7 +1458,7 @@
             "y": -3,
             "z": -7,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.stripes@0"
             ]
         },
         {
@@ -1506,7 +1466,7 @@
             "y": -3,
             "z": -7,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.tritanium_plate_stripe@0"
             ]
         },
         {
@@ -1522,7 +1482,7 @@
             "y": -3,
             "z": -7,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.stripes@0"
             ]
         },
         {
@@ -1538,7 +1498,7 @@
             "y": -3,
             "z": -7,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.tritanium_plate_stripe@0"
             ]
         },
         {
@@ -1698,7 +1658,7 @@
             "y": -3,
             "z": 3,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.tritanium_plate_stripe@0"
             ]
         },
         {
@@ -1930,7 +1890,7 @@
             "y": -3,
             "z": 3,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.tritanium_plate_stripe@0"
             ]
         },
         {
@@ -2122,7 +2082,7 @@
             "y": -3,
             "z": -5,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.tritanium_plate_stripe@0"
             ]
         },
         {
@@ -2314,7 +2274,7 @@
             "y": -3,
             "z": -5,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.tritanium_plate_stripe@0"
             ]
         },
         {
@@ -2514,7 +2474,7 @@
             "y": -3,
             "z": 1,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.tritanium_plate_stripe@0"
             ]
         },
         {
@@ -2599,26 +2559,10 @@
         },
         {
             "x": 2,
-            "y": 3,
-            "z": -1,
-            "elements": [
-                "ic2:uu_matter@0"
-            ]
-        },
-        {
-            "x": 2,
             "y": 5,
             "z": 5,
             "elements": [
                 "chisel:factory@15"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": -1,
-            "elements": [
-                "ic2:uu_matter@0"
             ]
         },
         {
@@ -2627,14 +2571,6 @@
             "z": 1,
             "elements": [
                 "ic2:resource@13"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": -1,
-            "elements": [
-                "ic2:uu_matter@0"
             ]
         },
         {
@@ -2654,27 +2590,11 @@
             ]
         },
         {
-            "x": -1,
-            "y": 3,
-            "z": -1,
-            "elements": [
-                "ic2:uu_matter@0"
-            ]
-        },
-        {
             "x": 3,
             "y": 1,
             "z": 3,
             "elements": [
                 "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": -1,
-            "elements": [
-                "ic2:uu_matter@0"
             ]
         },
         {
@@ -2738,7 +2658,7 @@
             "y": -3,
             "z": 1,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.tritanium_plate_stripe@0"
             ]
         },
         {
@@ -2858,7 +2778,7 @@
             "y": 2,
             "z": -1,
             "elements": [
-                "chisel:factory@11"
+                "matteroverdrive:decorative.tritanium_plate_stripe@0"
             ]
         },
         {
@@ -2890,7 +2810,7 @@
             "y": 2,
             "z": -1,
             "elements": [
-                "chisel:factory@11"
+                "matteroverdrive:machine_hull@0"
             ]
         },
         {
@@ -2906,7 +2826,7 @@
             "y": 2,
             "z": -1,
             "elements": [
-                "chisel:factory@11"
+                "matteroverdrive:machine_hull@0"
             ]
         },
         {
@@ -2930,7 +2850,7 @@
             "y": -2,
             "z": 1,
             "elements": [
-                "ic2:resource@13"
+                "rpsideas:bright_plate@2"
             ]
         },
         {
@@ -2962,7 +2882,7 @@
             "y": 2,
             "z": -1,
             "elements": [
-                "chisel:factory@11"
+                "matteroverdrive:machine_hull@0"
             ]
         },
         {
@@ -2986,7 +2906,7 @@
             "y": -2,
             "z": 1,
             "elements": [
-                "ic2:resource@13"
+                "rpsideas:bright_plate@2"
             ]
         },
         {
@@ -2994,7 +2914,7 @@
             "y": 2,
             "z": -1,
             "elements": [
-                "chisel:factory@11"
+                "matteroverdrive:decorative.tritanium_plate_stripe@0"
             ]
         },
         {
@@ -3034,7 +2954,7 @@
             "y": -3,
             "z": -3,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.tritanium_plate_stripe@0"
             ]
         },
         {
@@ -3258,7 +3178,7 @@
             "y": -3,
             "z": -3,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.tritanium_plate_stripe@0"
             ]
         },
         {
@@ -3594,7 +3514,7 @@
             "y": -2,
             "z": -1,
             "elements": [
-                "ic2:resource@13"
+                "rpsideas:bright_plate@2"
             ]
         },
         {
@@ -3602,7 +3522,7 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "chisel:factory@11"
+                "matteroverdrive:decorative.tritanium_plate_stripe@0"
             ]
         },
         {
@@ -3610,7 +3530,7 @@
             "y": -2,
             "z": -1,
             "elements": [
-                "ic2:resource@13"
+                "rpsideas:bright_plate@2"
             ]
         },
         {
@@ -3618,7 +3538,7 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "chisel:factory@11"
+                "matteroverdrive:machine_hull@0"
             ]
         },
         {
@@ -3642,7 +3562,7 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "chisel:factory@11"
+                "matteroverdrive:machine_hull@0"
             ]
         },
         {
@@ -3650,7 +3570,7 @@
             "y": -2,
             "z": -1,
             "elements": [
-                "ic2:resource@13"
+                "rpsideas:bright_plate@2"
             ]
         },
         {
@@ -3666,7 +3586,7 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "chisel:factory@11"
+                "matteroverdrive:machine_hull@0"
             ]
         },
         {
@@ -3698,7 +3618,7 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "chisel:factory@11"
+                "matteroverdrive:decorative.tritanium_plate_stripe@0"
             ]
         },
         {
@@ -3730,7 +3650,7 @@
             "y": -3,
             "z": -1,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.tritanium_plate_stripe@0"
             ]
         },
         {
@@ -3799,38 +3719,6 @@
         },
         {
             "x": -2,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "ic2:uu_matter@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "ic2:uu_matter@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "ic2:uu_matter@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "ic2:uu_matter@0"
-            ]
-        },
-        {
-            "x": -2,
             "y": -3,
             "z": -1,
             "elements": [
@@ -3843,14 +3731,6 @@
             "z": -1,
             "elements": [
                 "chisel:technical@9"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "ic2:uu_matter@0"
             ]
         },
         {
@@ -3890,7 +3770,7 @@
             "y": -3,
             "z": -1,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.tritanium_plate_stripe@0"
             ]
         },
         {
@@ -4098,7 +3978,7 @@
             "y": 5,
             "z": -6,
             "elements": [
-                "minecraft:sea_lantern@0"
+                "extendedcrafting:lamp@1"
             ]
         },
         {
@@ -4130,7 +4010,7 @@
             "y": 5,
             "z": -6,
             "elements": [
-                "minecraft:sea_lantern@0"
+                "extendedcrafting:lamp@1"
             ]
         },
         {
@@ -4210,7 +4090,7 @@
             "y": -3,
             "z": 6,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.stripes@0"
             ]
         },
         {
@@ -4362,7 +4242,7 @@
             "y": -3,
             "z": 6,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.stripes@0"
             ]
         },
         {
@@ -4802,7 +4682,7 @@
             "y": -3,
             "z": 4,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.stripes@0"
             ]
         },
         {
@@ -5018,7 +4898,7 @@
             "y": -3,
             "z": 4,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.stripes@0"
             ]
         },
         {
@@ -5178,7 +5058,7 @@
             "y": -3,
             "z": -6,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.stripes@0"
             ]
         },
         {
@@ -5354,7 +5234,7 @@
             "y": -3,
             "z": -6,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.stripes@0"
             ]
         },
         {
@@ -5586,7 +5466,7 @@
             "y": 5,
             "z": 6,
             "elements": [
-                "minecraft:sea_lantern@0"
+                "extendedcrafting:lamp@1"
             ]
         },
         {
@@ -5594,7 +5474,7 @@
             "y": -3,
             "z": 2,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.stripes@0"
             ]
         },
         {
@@ -5678,35 +5558,11 @@
             ]
         },
         {
-            "x": 2,
-            "y": 3,
-            "z": -2,
-            "elements": [
-                "ic2:uu_matter@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": -2,
-            "elements": [
-                "ic2:uu_matter@0"
-            ]
-        },
-        {
             "x": -2,
             "y": -3,
             "z": 2,
             "elements": [
                 "ic2:resource@13"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": -2,
-            "elements": [
-                "ic2:uu_matter@0"
             ]
         },
         {
@@ -5726,27 +5582,11 @@
             ]
         },
         {
-            "x": -1,
-            "y": 3,
-            "z": -2,
-            "elements": [
-                "ic2:uu_matter@0"
-            ]
-        },
-        {
             "x": 1,
             "y": -3,
             "z": 2,
             "elements": [
                 "ic2:resource@13"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": -2,
-            "elements": [
-                "ic2:uu_matter@0"
             ]
         },
         {
@@ -5762,7 +5602,7 @@
             "y": 5,
             "z": 6,
             "elements": [
-                "minecraft:sea_lantern@0"
+                "extendedcrafting:lamp@1"
             ]
         },
         {
@@ -5826,7 +5666,7 @@
             "y": -3,
             "z": 2,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.stripes@0"
             ]
         },
         {
@@ -5890,7 +5730,7 @@
             "y": 2,
             "z": -2,
             "elements": [
-                "chisel:factory@11"
+                "matteroverdrive:decorative.tritanium_plate_stripe@0"
             ]
         },
         {
@@ -5898,7 +5738,7 @@
             "y": 2,
             "z": -2,
             "elements": [
-                "chisel:factory@11"
+                "matteroverdrive:decorative.tritanium_plate_stripe@0"
             ]
         },
         {
@@ -5914,7 +5754,7 @@
             "y": 2,
             "z": -2,
             "elements": [
-                "chisel:factory@11"
+                "matteroverdrive:decorative.tritanium_plate_stripe@0"
             ]
         },
         {
@@ -5938,7 +5778,7 @@
             "y": 2,
             "z": -2,
             "elements": [
-                "chisel:factory@11"
+                "matteroverdrive:decorative.tritanium_plate_stripe@0"
             ]
         },
         {
@@ -5954,7 +5794,7 @@
             "y": 2,
             "z": -2,
             "elements": [
-                "chisel:factory@11"
+                "matteroverdrive:decorative.tritanium_plate_stripe@0"
             ]
         },
         {
@@ -5963,6 +5803,14 @@
             "z": -2,
             "elements": [
                 "appliedenergistics2:chiseled_quartz_stairs@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "chisel:factory@15"
             ]
         },
         {
@@ -6002,7 +5850,7 @@
             "y": -3,
             "z": -4,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.stripes@0"
             ]
         },
         {
@@ -6146,7 +5994,7 @@
             "y": -3,
             "z": -4,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.stripes@0"
             ]
         },
         {
@@ -6346,7 +6194,7 @@
             "y": 2,
             "z": 2,
             "elements": [
-                "chisel:factory@11"
+                "matteroverdrive:decorative.tritanium_plate_stripe@0"
             ]
         },
         {
@@ -6362,7 +6210,7 @@
             "y": 2,
             "z": 2,
             "elements": [
-                "chisel:factory@11"
+                "matteroverdrive:decorative.tritanium_plate_stripe@0"
             ]
         },
         {
@@ -6386,7 +6234,7 @@
             "y": 2,
             "z": 2,
             "elements": [
-                "chisel:factory@11"
+                "matteroverdrive:decorative.tritanium_plate_stripe@0"
             ]
         },
         {
@@ -6410,7 +6258,7 @@
             "y": 2,
             "z": 2,
             "elements": [
-                "chisel:factory@11"
+                "matteroverdrive:decorative.tritanium_plate_stripe@0"
             ]
         },
         {
@@ -6442,7 +6290,7 @@
             "y": 2,
             "z": 2,
             "elements": [
-                "chisel:factory@11"
+                "matteroverdrive:decorative.tritanium_plate_stripe@0"
             ]
         },
         {
@@ -6466,7 +6314,7 @@
             "y": -3,
             "z": -2,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.stripes@0"
             ]
         },
         {
@@ -6534,14 +6382,6 @@
             ]
         },
         {
-            "x": -2,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "ic2:uu_matter@0"
-            ]
-        },
-        {
             "x": 0,
             "y": -3,
             "z": -2,
@@ -6551,34 +6391,10 @@
         },
         {
             "x": -1,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "ic2:uu_matter@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "ic2:uu_matter@0"
-            ]
-        },
-        {
-            "x": -1,
             "y": -3,
             "z": -2,
             "elements": [
                 "ic2:resource@13"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "ic2:uu_matter@0"
             ]
         },
         {
@@ -6595,14 +6411,6 @@
             "z": -2,
             "elements": [
                 "chisel:technical@9"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "ic2:uu_matter@0"
             ]
         },
         {
@@ -6650,7 +6458,7 @@
             "y": -3,
             "z": -2,
             "elements": [
-                "chisel:factory@6"
+                "matteroverdrive:decorative.stripes@0"
             ]
         },
         {
@@ -6669,5 +6477,4 @@
                 "thermalfoundation:glass@3"
             ]
         }
-    ]
-}
+    ]}

@@ -46,7 +46,7 @@ nc_wasteland
 
 
 Storage Cell
-	- Id: 12345
+	- Id: 2
 	- Height: 256
 	- Has Sky? true
 	- Cloud Height: 256.0

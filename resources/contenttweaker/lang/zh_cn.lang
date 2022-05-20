@@ -1,6 +1,8 @@
 fluid.crystalloid=紫晶素
 fluid.crystalloidneutron=中子晶流体
 fluid.liquid_energy=液态能量
+fluid.unsteady_plasma=非稳态等离子体
+fluid.steady_ultra_dense_atomic_matter=稳态超密原子物质
 item.contenttweaker.universalalloyt1.name=§e基础通用合金
 item.contenttweaker.universalalloyt2.name=§c强化通用合金
 item.contenttweaker.universalalloyt3.name=§5终极通用合金
@@ -64,6 +66,7 @@ item.contenttweaker.data_model_quartz.name=§e石英-§b高级数据模式存储
 item.contenttweaker.data_model_redstone.name=§e红石-§b高级数据模式存储卡
 item.contenttweaker.data_model_silver.name=§e银-§b高级数据模式存储卡
 item.contenttweaker.data_model_tin.name=§e锡-§b高级数据模式存储卡
+item.contenttweaker.data_model_orichalcos.name=§e奥利哈刚-§b高级数据模式存储卡
 item.contenttweaker.programming_circuit_0.name=编程电路-0x00
 item.contenttweaker.programming_circuit_a.name=编程电路-0x0A
 item.contenttweaker.programming_circuit_b.name=编程电路-0x0B

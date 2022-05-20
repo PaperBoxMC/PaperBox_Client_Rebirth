@@ -62,6 +62,8 @@ regItem("data_model_redstone");
 regItem("data_model_silver");
 # 锡模式存储卡
 regItem("data_model_tin");
+# 奥利哈刚模式存储卡
+regItem("data_model_orichalcos");
 
 //基础电路基板
 regItem("circuit_board_basic");

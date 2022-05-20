@@ -362,11 +362,25 @@ for item in loadedMods["modularcontroller"].items {
 //复合型中子复制压缩机
 <modularcontroller:cnrc_controller>.addTooltip(DIFF11);
 <modularcontroller:cnrc_controller>.addTooltip("§b在ECO实验室失去了新产品音讯的513年后，推出了全新的产品：§5复合型§6中子复制压缩机。");
-<modularcontroller:cnrc_controller>.addTooltip("§b这种奇特的机械可以直接操纵紫晶素的原子，并将其任意转变为其他原子，其中用到了原子重构机的尖端技术。");
+<modularcontroller:cnrc_controller>.addTooltip("§b这种奇特的机械可以直接操纵纯原子流体，并将其任意转变为其他原子，其中用到了原子重构机的尖端技术。");
 <modularcontroller:cnrc_controller>.addTooltip("§b此外，ECO实验室还与GSP星系的§9StP§b实验室合作，将其与量子压缩机完美结合，使其成为量子工业上又一大成就。");
 <modularcontroller:cnrc_controller>.addTooltip("§e量子压缩机是一个基于中子素压缩机改进，甚至是重构的高级机械。");
 <modularcontroller:cnrc_controller>.addTooltip("§c传言中，量子压缩机内可能含有一个微型宇宙。");
 <modularcontroller:cnrc_controller>.addTooltip("§6这种强大的机械能力一直未有研发人员能够驾驭，§e直到现在。");
+
+//终焉反应堆
+<modularcontroller:terminal_reactor_controller>.addTooltip(DIFF11);
+<modularcontroller:terminal_reactor_controller>.addTooltip("§e作为§5复合型§6中子复制压缩机§e的前置机械，其中也含有不小的技术含量。");
+<modularcontroller:terminal_reactor_controller>.addTooltip("§b研究日志§b(§e3057/5/19§b,主要实验员:§9GSP_3017§b)§a：");
+<modularcontroller:terminal_reactor_controller>.addTooltip("§e利用了湮灭反应堆与聚变反应堆的技术，使等离子和等离子物质互相反应，产生§6非稳态等离子体§e。");
+<modularcontroller:terminal_reactor_controller>.addTooltip("§e这种液体及其不稳定，一旦受到外部剧烈反应会发生§c相当大的爆炸§e。");
+<modularcontroller:terminal_reactor_controller>.addTooltip("§e在一次运输中，由于驾驶员§9GSP_3054§e操作不当，导致实验室所在的行星§c被炸毁§e，研究暂停。");
+<modularcontroller:terminal_reactor_controller>.addTooltip("§b研究报告：应当使用其他稳态液体与其混合才可投入生产环境。");
+<modularcontroller:terminal_reactor_controller>.addTooltip("§b研究日志§b(§e3062/8/4§b,主要实验员:§9GSP_3022§e)§b：");
+<modularcontroller:terminal_reactor_controller>.addTooltip("§e经过研究，与中子晶流体混合时，非稳态等离子体的颜色有所变化，温度大幅下降。");
+<modularcontroller:terminal_reactor_controller>.addTooltip("§e此外，如果在混合过程中滴入少许§3终焉物质§e，会使其流体§2大幅度增长§e。");
+<modularcontroller:terminal_reactor_controller>.addTooltip("§e这种流体可以被投入到复制生产中，且比§5紫晶素§e的原子含量更高。");
+<modularcontroller:terminal_reactor_controller>.addTooltip("§b研究报告：高使用价值，投入生产环境。");
 
 for item in loadedMods["modularcontroller"].items {
     (item).addTooltip("§9§l=======控制器提示=======");

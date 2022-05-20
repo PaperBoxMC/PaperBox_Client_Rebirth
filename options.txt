@@ -5,7 +5,7 @@ fov:1.0
 gamma:1.0
 saturation:0.0
 renderDistance:8
-guiScale:3
+guiScale:4
 particles:1
 bobView:true
 anaglyph3d:false
@@ -29,7 +29,7 @@ fullscreen:false
 enableVsync:false
 useVbo:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:false
 touchscreen:false
 overrideWidth:0
@@ -132,7 +132,7 @@ key_key.ebwizardry.spell_6:7:ALT
 key_key.ebwizardry.spell_7:8:ALT
 key_key.ebwizardry.spell_8:9:ALT
 key_key.toggle_shaders:0
-key_key.open_wct.desc:37
+key_key.open_wct.desc:55
 key_key.cycle_magnet_mode.desc:0
 key_key.open_wit.desc:0
 key_key.open_wpt.desc:0
@@ -279,7 +279,7 @@ key_enderio.keybind.fovplusfast:0
 key_enderio.keybind.fovminusfast:0
 soundCategory_master:1.0
 soundCategory_music:0.0
-soundCategory_record:1.0
+soundCategory_record:0.5652174
 soundCategory_weather:1.0
 soundCategory_block:1.0
 soundCategory_hostile:1.0

@@ -3867,3 +3867,11 @@ techguns:door3x3 - 3864
 techguns:lamp0 - 3865
 techguns:ladder0 - 3866
 techguns:stairs_concrete - 3867
+psicosts:mana_resonator - 3868
+psicosts:starlight_resonator - 3869
+psicosts:blood_resonator - 3870
+psicosts:flux_resonator - 3871
+psicosts:material_glassy - 3872
+modularcontroller:terminal_reactor_controller - 3873
+contenttweaker:steady_ultra_dense_atomic_matter - 3874
+contenttweaker:unsteady_plasma - 3875

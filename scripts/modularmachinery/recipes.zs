@@ -162,83 +162,44 @@ RecipeBuilder.newBuilder("energycrystal_lv2","Pure_crystal_synthesis_instrument"
 .build();
 //==============================发电机==============================//
 //==============================托卡马克聚变反应堆==============================
-//一级
-RecipeBuilder.newBuilder("tokmak_1","tokmak_reactor",100)
-.addGasInput("fusionfuel" , 40)
-.addItemInput(<contenttweaker:programming_circuit_a>).setChance(0)
-.addItemInput(<contenttweaker:programming_circuit_0>).setChance(0)
-.addEnergyPerTickOutput(800000)
-.build();
+var programmingCircuits as IItemStack[] = [
+    <contenttweaker:programming_circuit_a>,
+    <contenttweaker:programming_circuit_b>,
+    <contenttweaker:programming_circuit_c>,
+    <contenttweaker:programming_circuit_d>,
+    <contenttweaker:programming_circuit_e>,
+    <contenttweaker:programming_circuit_f>,
+];
 
-//二级
-RecipeBuilder.newBuilder("tokmak_2","tokmak_reactor",100)
-.addGasInput("fusionfuel" , 160)
-.addItemInput(<contenttweaker:programming_circuit_b>).setChance(0)
-.addItemInput(<contenttweaker:programming_circuit_0>).setChance(0)
-.addEnergyPerTickOutput(3200000)
-.build();
+var fusionFuelUsage = 40;
+var energyOutput = 800000;
+var liquidEnergyOutput = 1;
+var plasmaOutput = 2;
 
-//三级
-RecipeBuilder.newBuilder("tokmak_3","tokmak_reactor",100)
-.addGasInput("fusionfuel" , 640)
-.addItemInput(<contenttweaker:programming_circuit_c>).setChance(0)
-.addItemInput(<contenttweaker:programming_circuit_0>).setChance(0)
-.addEnergyPerTickOutput(12800000)
-.build();
+for i, programmingCircuit in programmingCircuits {
+    RecipeBuilder.newBuilder("tokmak_" + i, "tokmak_reactor", 100)
+    .addGasInput("fusionfuel" , fusionFuelUsage)
+    .addItemInput(programmingCircuit).setChance(0)
+    .addItemInput(<contenttweaker:programming_circuit_0>).setChance(0)
+    .addFluidOutput(<liquid:plasma> * plasmaOutput)
+    .addEnergyPerTickOutput(energyOutput)
+    .build();
 
-//四级
-RecipeBuilder.newBuilder("tokmak_4","tokmak_reactor",100)
-.addGasInput("fusionfuel" , 2560)
-.addItemInput(<contenttweaker:programming_circuit_d>).setChance(0)
-.addItemInput(<contenttweaker:programming_circuit_0>).setChance(0)
-.addEnergyPerTickOutput(51200000)
-.addFluidOutput(<liquid:plasma> * 2)
-.build();
+    if (i >= 3) {
+        RecipeBuilder.newBuilder("tokmak_" + i + "_liquid", "tokmak_reactor", 100)
+        .addGasInput("fusionfuel" , fusionFuelUsage)
+        .addItemInput(programmingCircuit).setChance(0)
+        .addItemInput(<contenttweaker:programming_circuit_a>).setChance(0)
+        .addFluidOutput(<liquid:liquid_energy> * liquidEnergyOutput)
+        .addFluidOutput(<liquid:plasma> * plasmaOutput)
+        .build();
+    }
 
-//四级_液态能量
-RecipeBuilder.newBuilder("tokmak_4_liquid","tokmak_reactor",100)
-.addGasInput("fusionfuel" , 2560)
-.addItemInput(<contenttweaker:programming_circuit_d>).setChance(0)
-.addItemInput(<contenttweaker:programming_circuit_a>).setChance(0)
-.addFluidOutput(<liquid:liquid_energy> * 1)
-.addFluidOutput(<liquid:plasma> * 2)
-.build();
-
-//五级
-RecipeBuilder.newBuilder("tokmak_5","tokmak_reactor",100)
-.addGasInput("fusionfuel" , 10240)
-.addItemInput(<contenttweaker:programming_circuit_e>).setChance(0)
-.addItemInput(<contenttweaker:programming_circuit_0>).setChance(0)
-.addEnergyPerTickOutput(204800000)
-.addFluidOutput(<liquid:plasma> * 10)
-.build();
-
-//五级_液态能量
-RecipeBuilder.newBuilder("tokmak_5_liquid","tokmak_reactor",100)
-.addGasInput("fusionfuel" , 10240)
-.addItemInput(<contenttweaker:programming_circuit_e>).setChance(0)
-.addItemInput(<contenttweaker:programming_circuit_a>).setChance(0)
-.addFluidOutput(<liquid:liquid_energy> * 4)
-.addFluidOutput(<liquid:plasma> * 10)
-.build();
-
-//五级_液态能量
-RecipeBuilder.newBuilder("tokmak_6","tokmak_reactor",100)
-.addGasInput("fusionfuel" , 20480)
-.addItemInput(<contenttweaker:programming_circuit_f>).setChance(0)
-.addItemInput(<contenttweaker:programming_circuit_0>).setChance(0)
-.addEnergyPerTickOutput(409600000)
-.addFluidOutput(<liquid:plasma> * 40)
-.build();
-
-//六级_液态能量
-RecipeBuilder.newBuilder("tokmak_6_liquid","tokmak_reactor",100)
-.addGasInput("fusionfuel" , 20480)
-.addItemInput(<contenttweaker:programming_circuit_f>).setChance(0)
-.addItemInput(<contenttweaker:programming_circuit_a>).setChance(0)
-.addFluidOutput(<liquid:liquid_energy> * 8)
-.addFluidOutput(<liquid:plasma> * 40)
-.build();
+    fusionFuelUsage *= 4;
+    liquidEnergyOutput *= 4;
+    energyOutput *= 4;
+    plasmaOutput *= 4;
+}
 
 //==============================星宿反应堆==============================
 //星宿反应堆_控制器
@@ -270,23 +231,24 @@ RecipeBuilder.newBuilder("Weather_generator_sunny", "Weather_generator", 2400, 0
 .addEnergyPerTickOutput(2750000)
 .build();
 
-//雨天
-RecipeBuilder.newBuilder("Weather_generator_raining", "Weather_generator", 2400, 0,true)
-.setWeather("raining")
-.addEnergyPerTickOutput(5500000)
-.build();
+//雨天、雪天、雷雨天
+var weathers as string[] = [
+    "raining",
+    "snowing",
+    "thundering"
+];
+var energyOutputs as int[] = [
+    5500000,
+    8000000,
+    17500000
+];
 
-//雪天
-RecipeBuilder.newBuilder("Weather_generator_snowing", "Weather_generator", 2400, 0,true)
-.setWeather("snowing")
-.addEnergyPerTickOutput(8000000)
-.build();
-
-//雷雨天
-RecipeBuilder.newBuilder("Weather_generator_thundering", "Weather_generator", 2400, 0,true)
-.setWeather("thundering")
-.addEnergyPerTickOutput(17500000)
-.build();
+for i, weather in weathers {
+    RecipeBuilder.newBuilder("Weather_generator_raining", "Weather_generator", 2400, 0,true)
+    .setWeather(weather)
+    .addEnergyPerTickOutput(energyOutputs[i])
+    .build();
+}
 
 //==============================方舟辅助仓==============================
 //方舟辅助仓_控制器
@@ -314,22 +276,28 @@ RecipeBuilder.newBuilder("ark_auxiliary_warehouse_night", "ark_auxiliary_warehou
 .build();
 
 //==============================电磁发电机==============================
-//电磁_0-85格
-RecipeBuilder.newBuilder("dici_1","di_ci", 2400)
-.setAltitude(0, 85)
-.addEnergyPerTickOutput(50000000)
+//电磁_0-33格
+RecipeBuilder.newBuilder("dici_0","di_ci", 2400)
+.setAltitude(0, 32)
+.addEnergyPerTickOutput(85000000)
 .build();
 
-//电磁_86_186格
+//电磁_33-96格
+RecipeBuilder.newBuilder("dici_1","di_ci", 2400)
+.setAltitude(33, 96)
+.addEnergyPerTickOutput(75000000)
+.build();
+
+//电磁_97_186格
 RecipeBuilder.newBuilder("dici_2","di_ci", 2400)
-.setAltitude(86, 186)
+.setAltitude(97, 192)
 .addEnergyPerTickOutput(60000000)
 .build();
 
-//电磁_187-256格
+//电磁_193-256格
 RecipeBuilder.newBuilder("dici_3","di_ci", 2400)
-.setAltitude(187, 256)
-.addEnergyPerTickOutput(75000000)
+.setAltitude(193, 256)
+.addEnergyPerTickOutput(50000000)
 .build();
 
 //电磁发电机-控制器
@@ -508,7 +476,7 @@ RecipeBuilder.newBuilder("substrate", "biogas_generator", 800)
 .addEnergyPerTickOutput(25000)
 .build();
 
-//沼气(
+//沼气（
 RecipeBuilder.newBuilder("1919810", "biogas_generator", 200)
 .addFluidInput(<liquid:ic2biogas> * 35000)
 .addEnergyPerTickOutput(114514)
@@ -571,10 +539,10 @@ RecipeBuilder.newBuilder("CRR_Ava_resource@4", "cosmic_ray_receiver", 25600)
 
 //==============================光质子注能器==============================
 //炽焰
-RecipeBuilder.newBuilder("NA_pyrotheum","neutron_activator", 100)
+RecipeBuilder.newBuilder("NA_pyrotheum","neutron_activator", 10)
 .addEnergyPerTickInput(128000)
-.addFluidInput(<liquid:lava> * 100000)
-.addFluidOutput(<liquid:pyrotheum> * 10000)
+.addFluidInput(<liquid:lava> * 10000)
+.addFluidOutput(<liquid:pyrotheum> * 1000)
 .build();
 
 //凛冰
@@ -1161,7 +1129,7 @@ RecipeBuilder.newBuilder("Dragon_heart", "Material_entropy_converter", 6400)
 .addEnergyPerTickInput(128000)
 .addItemInput(<draconicadditions:chaos_heart>)
 .addItemOutput(<draconicevolution:dragon_heart>)
-.addItemOutput(<draconicevolution:chaos_shard> * 5)
+.addItemOutput(<draconicevolution:chaos_shard> * 10)
 .build();
 
 //==============================元件装配室==============================
@@ -1264,7 +1232,7 @@ RecipeBuilder.newBuilder("data_model_wither", "acar", 1800)
 .addEnergyPerTickInput(1024000)
 .addItemInput(<deepmoblearning:data_model_blank>)
 .addItemInput(<ore:netherStar> , 64)
-.addItemOutput(<deepmoblearning:data_model_wither>.withTag({simulationCount: 0, tier: 1, killCount: 0, totalKillCount: 8})).setChance(0.1)
+.addItemOutput(<deepmoblearning:data_model_wither>.withTag({simulationCount: 0, tier: 1, killCount: 0, totalKillCount: 0})).setChance(0.1)
 .build();
 
 //末影龙数据模型
@@ -1323,7 +1291,7 @@ RecipeBuilder.newBuilder("circuitEx", "acar", 7200)
 
 //==============================先进液体转换装置==============================
 //先进液体转换装置_控制器
-RecipeBuilder.newBuilder("alcm_controller","crafter_tier_2", 7200)
+RecipeBuilder.newBuilder("ALCM_controller","crafter_tier_2", 7200)
 .addEnergyPerTickInput(128000)
 .addItemInput(<enderio:block_solar_panel:6> * 10)
 .addItemInput(<mekanism:controlcircuit:2> * 40)
@@ -1333,17 +1301,8 @@ RecipeBuilder.newBuilder("alcm_controller","crafter_tier_2", 7200)
 .addItemOutput(<modularcontroller:advanced_liquid_conversion_machine_controller>)
 .build();
 
-//中子晶流体
-RecipeBuilder.newBuilder("CryN_ALCM","advanced_liquid_conversion_machine", 10)
-.addEnergyPerTickInput(2560000)
-.addFluidInput(<liquid:crystal_matrix> * 72)
-.addFluidInput(<liquid:neutronium> * 72)
-.addFluidInput(<liquid:crystalloid> * 2)
-.addFluidOutput(<liquid:crystalloidneutron> * 144)
-.build();
-
 //硫酸钙
-RecipeBuilder.newBuilder("lsg", "advanced_liquid_conversion_machine", 100)
+RecipeBuilder.newBuilder("ALCM_lsg", "advanced_liquid_conversion_machine", 100)
 .addEnergyPerTickInput(512000)
 .addFluidInput(<liquid:sulfur_dioxide> * 4000)
 .addFluidInput(<liquid:fluorite_water> * 10000)
@@ -1351,11 +1310,11 @@ RecipeBuilder.newBuilder("lsg", "advanced_liquid_conversion_machine", 100)
 .build();
 
 //氘氚燃料
-RecipeBuilder.newBuilder("dt", "advanced_liquid_conversion_machine", 200)
+RecipeBuilder.newBuilder("ALCM_dt", "advanced_liquid_conversion_machine", 200)
 .addEnergyPerTickInput(400000)
-.addFluidInput(<liquid:heavywater> * 6000)
-.addFluidInput(<liquid:liquidlithium> * 6000)
-.addGasOutput("fusionfuel" , 12000)
+.addFluidInput(<liquid:heavywater> * 12000)
+.addFluidInput(<liquid:liquidlithium> * 12000)
+.addGasOutput("fusionfuel" , 24000)
 .build();
 
 //炽焰
@@ -1370,6 +1329,32 @@ RecipeBuilder.newBuilder("ALCM_cyrotheum","advanced_liquid_conversion_machine", 
 .addEnergyPerTickInput(512000)
 .addFluidInput(<liquid:water> * 500000)
 .addFluidOutput(<liquid:cryotheum> * 50000)
+.build();
+
+//中子晶流体
+RecipeBuilder.newBuilder("ALCM_CryN","advanced_liquid_conversion_machine", 10)
+.addEnergyPerTickInput(2560000)
+.addFluidInput(<liquid:crystal_matrix> * 72)
+.addFluidInput(<liquid:neutronium> * 72)
+.addFluidInput(<liquid:crystalloid> * 2)
+.addFluidOutput(<liquid:crystalloidneutron> * 144)
+.build();
+
+//稳态超密原子物质
+RecipeBuilder.newBuilder("ALCM_SUDAM_0","advanced_liquid_conversion_machine", 600)
+.addEnergyPerTickInput(40960000)
+.addFluidInput(<liquid:unsteady_plasma> * 64000)
+.addFluidInput(<liquid:crystalloidneutron> * 1440)
+.addFluidOutput(<liquid:steady_ultra_dense_atomic_matter> * 480)
+.build();
+
+//稳态超密原子物质
+RecipeBuilder.newBuilder("ALCM_SUDAM_1","advanced_liquid_conversion_machine", 300)
+.addEnergyPerTickInput(163840000)
+.addFluidInput(<liquid:unsteady_plasma> * 64000)
+.addFluidInput(<liquid:crystalloidneutron> * 1440)
+.addFluidInput(<liquid:infinity_metal> * 8)
+.addFluidOutput(<liquid:steady_ultra_dense_atomic_matter> * 32000)
 .build();
 
 //==============================物质异变器==============================
@@ -1790,6 +1775,14 @@ RecipeBuilder.newBuilder("card_tin", "nsemc", 6000)
 .addItemOutput(<contenttweaker:data_model_tin>).setChance(0.1)
 .build();
 
+//奥利哈刚-数据卡
+RecipeBuilder.newBuilder("card_orichalcos", "nsemc", 6000)
+.addEnergyPerTickInput(51200000)
+.addItemInput(<contenttweaker:data_model_card>)
+.addItemInput(<extrabotany:blockorichalcos>)
+.addItemOutput(<contenttweaker:data_model_orichalcos>).setChance(0.1)
+.build();
+
 //==============================超临界物质移相器==============================
 //超临界物质移相器_控制器
 RecipeBuilder.newBuilder("Supercritical_phase_shifter_controller", "acar", 24000)
@@ -1852,7 +1845,8 @@ RecipeBuilder.newBuilder("Extract_Lifeessence_5", "life_extracts_altar", 100)
 .addFluidOutput(<liquid:lifeessence> * 30000)
 .build();
 
-/*==============================中子星能量提取器==============================
+/*
+==============================中子星能量提取器==============================
 //中子星能量提取器_控制器
 RecipeBuilder.newBuilder("Neutron_star_energy_extractor_controller", "crafter_tier_2", 500)
 .addEnergyPerTickInput(512000)
@@ -1879,6 +1873,7 @@ RecipeBuilder.newBuilder("energy_liquefier", "crafter_tier_2", 2400)
 .addItemInput(<draconicevolution:draconic_energy_core> * 8)
 .addItemInput(<avaritia:block_resource:2> * 2)
 .addItemInput(<ic2:resource:13> * 8)
+.addItemInput(<contenttweaker:programming_circuit_a>)
 .addItemOutput(<modularcontroller:energy_liquefier_controller>)
 .build();
 
@@ -1890,6 +1885,7 @@ RecipeBuilder.newBuilder("energy_converter", "crafter_tier_2", 2400)
 .addItemInput(<ore:ingotEnergium> , 32)
 .addItemInput(<draconicevolution:draconic_energy_core> * 6)
 .addItemInput(<avaritia:block_resource:2>)
+.addItemInput(<contenttweaker:programming_circuit_b>)
 .addItemOutput(<modularcontroller:energy_converter_controller>)
 .build();
 
@@ -1930,59 +1926,145 @@ var models as IItemStack[] = [
     <contenttweaker:data_model_platinum>,
     <contenttweaker:data_model_emerald>,
     <contenttweaker:data_model_gelid_enderium>,
-    <contenttweaker:data_model_gelid_gem>
+    <contenttweaker:data_model_gelid_gem>,
+    <contenttweaker:data_model_orichalcos>
 ];
 
 var modelOutputs as IItemStack[] = [
-    <avaritia:singularity:6> * 2,# 锡
-    <avaritia:singularity:0> * 2,# 铁
-    <avaritia:singularity:5> * 2,# 铜
-    <avaritia:singularity:2> * 3,# 青金石
-    <avaritia:singularity:3> * 1,# 红石
-    <avaritia:singularity:1> * 5,# 金
-    <avaritia:singularity:7> * 5,# 铅
-    <avaritia:singularity:9> * 1,# 镍
-    <avaritia:singularity:4> * 1,# 石英
-    <avaritia:singularity:8> * 1,# 银
-    <avaritia:singularity:12> * 1,# 红石琥珀金
-    <redstonearsenal:storage:1> * 64,# 红石水晶
-    <avaritia:singularity:10> * 1,# 钻石
-    <avaritia:singularity:14> * 1,# 铱
-    <avaritia:singularity:13> * 1,# 铂
-    <avaritia:singularity:11> * 1,# 绿宝石
-    <redstonerepository:storage:0> * 64,# 极寒末影
-    <redstonerepository:storage:1> * 64# 极寒水晶
+    <avaritia:singularity:6> * 6,# 1 锡
+    <avaritia:singularity:0> * 6,# 2 铁
+    <avaritia:singularity:5> * 6,# 3 铜
+    <avaritia:singularity:2> * 4,# 4 青金石
+    <avaritia:singularity:3> * 4,# 5 红石
+    <avaritia:singularity:1> * 7,# 6 金
+    <avaritia:singularity:7> * 7,# 7 铅
+    <avaritia:singularity:9> * 4,# 8 镍
+    <avaritia:singularity:4> * 4,# 9 石英
+    <avaritia:singularity:8> * 4,# 10 银
+    <avaritia:singularity:12> * 4,# 11 红石琥珀金
+    <redstonearsenal:storage:1> * 64,# 12 红石水晶
+    <avaritia:singularity:10> * 1,# 13 钻石
+    <avaritia:singularity:14> * 1,# 14 铱
+    <avaritia:singularity:13> * 1,# 15 铂
+    <avaritia:singularity:11> * 1,# 16 绿宝石
+    <redstonerepository:storage:0> * 64,# 17 极寒末影
+    <redstonerepository:storage:1> * 64,# 18 极寒水晶
+    <extrabotany:material:1># 19 奥利哈刚
 ];
 
-var modelUseUUs as int[] = [
-    1,
-    1,
-    1,
-    2,
-    1,
-    4,
-    4,
-    1,
-    1,
-    1,
-    1,
-    9,
-    525,
-    655,
-    290,
-    830,
-    130,
-    105
+var modelUseSUDAMs as int[] = [
+    1,#1
+    1,#2
+    1,#3
+    1,#4
+    1,#5
+    2,#6
+    2,#7
+    1,#8
+    1,#9
+    1,#10
+    1,#11
+    3,#12
+    175,#13
+    215,#14
+    95,#15
+    275,#16
+    45,#17
+    35,#18
+    400#19
 ];
 
 for i ,model in models {
     var modelOutput = modelOutputs[i];
-    var modelUseUU = modelUseUUs[i];
+    var modelUseSUDAM = modelUseSUDAMs[i];
 
-    RecipeBuilder.newBuilder("cnrc_copy_" + i, "cnrc", 200)
+    RecipeBuilder.newBuilder("cnrc_copy_sudam_" + i, "cnrc", 200)
     .addItemInput(model).setChance(0)
-    .addFluidInput(<liquid:crystalloid> * modelUseUU)
-    .addEnergyPerTickInput(1500000 * modelUseUU)
+    .addFluidInput(<liquid:steady_ultra_dense_atomic_matter> * modelUseSUDAM)
+    .addEnergyPerTickInput(4500000 * modelUseSUDAM)
+    .addItemOutput(modelOutput)
+    .build();
+
+    RecipeBuilder.newBuilder("cnrc_copy_crystalloid_" + i, "cnrc", 200)
+    .addItemInput(model).setChance(0)
+    .addFluidInput(<liquid:crystalloid> * (modelUseSUDAM * 3))
+    .addEnergyPerTickInput(3000000 * modelUseSUDAM)
     .addItemOutput(modelOutput)
     .build();
 }
+
+//==============================终焉反应堆==============================
+//终焉反应堆_控制器
+RecipeBuilder.newBuilder("terminal_reactor_controller", "acar", 16000)
+.addItemInput(<avaritia:resource:5> * 4)
+.addItemInput(<ore:circuitExtreme>, 24)
+.addItemInput(<matteroverdrive:fusion_reactor_controller>)
+.addItemInput(<modularcontroller:tokmak_reactor_controller>)
+.addItemInput(<modularcontroller:energy_liquefier_controller>)
+.addFluidInput(<liquid:plasma> * 16000)
+.addFluidInput(<liquid:matter_plasma> * 48000)
+.addEnergyPerTickInput(7680000)
+.addItemOutput(<modularcontroller:terminal_reactor_controller>)
+.build();
+
+//终焉反应堆_发电
+RecipeBuilder.newBuilder("terminal_reactor_energy_0", "terminal_reactor", 1600)
+.addItemInput(<contenttweaker:programming_circuit_0>).setChance(0)
+.addItemInput(<contenttweaker:programming_circuit_a>).setChance(0)
+.addFluidInput(<liquid:plasma> * 8000)
+.addFluidInput(<liquid:matter_plasma> * 24000)
+.addFluidOutput(<liquid:unsteady_plasma> * 4000)
+.addFluidOutput(<liquid:liquid_energy> * 256)
+.build();
+
+//终焉反应堆_发电
+RecipeBuilder.newBuilder("terminal_reactor_energy_1", "terminal_reactor", 1600)
+.addItemInput(<contenttweaker:programming_circuit_0>).setChance(0)
+.addItemInput(<contenttweaker:programming_circuit_b>).setChance(0)
+.addFluidInput(<liquid:plasma> * 16000)
+.addFluidInput(<liquid:matter_plasma> * 48000)
+.addFluidInput(<liquid:chaotic_metal> * 1)
+.addFluidOutput(<liquid:unsteady_plasma> * 8000)
+.addFluidOutput(<liquid:liquid_energy> * 512)
+.build();
+
+//终焉反应堆_生产
+RecipeBuilder.newBuilder("terminal_reactor_gen_0", "terminal_reactor", 800)
+.addItemInput(<contenttweaker:programming_circuit_a>).setChance(0)
+.addItemInput(<contenttweaker:programming_circuit_a>).setChance(0)
+.addFluidInput(<liquid:plasma> * 4000)
+.addFluidInput(<liquid:matter_plasma> * 24000)
+.addFluidOutput(<liquid:unsteady_plasma> * 4000)
+.addFluidOutput(<liquid:liquid_energy> * 64)
+.build();
+
+//终焉反应堆_生产
+RecipeBuilder.newBuilder("terminal_reactor_gen_1", "terminal_reactor", 800)
+.addItemInput(<contenttweaker:programming_circuit_a>).setChance(0)
+.addItemInput(<contenttweaker:programming_circuit_b>).setChance(0)
+.addFluidInput(<liquid:plasma> * 8000)
+.addFluidInput(<liquid:matter_plasma> * 8000)
+.addFluidOutput(<liquid:unsteady_plasma> * 8000)
+.addFluidOutput(<liquid:liquid_energy> * 128)
+.build();
+
+//终焉反应堆_生产
+RecipeBuilder.newBuilder("terminal_reactor_gen_2", "terminal_reactor", 800)
+.addItemInput(<contenttweaker:programming_circuit_a>).setChance(0)
+.addItemInput(<contenttweaker:programming_circuit_b>).setChance(0)
+.addFluidInput(<liquid:plasma> * 8000)
+.addFluidInput(<liquid:matter_plasma> * 48000)
+.addFluidInput(<liquid:crystalloidneutron> * 8)
+.addFluidOutput(<liquid:unsteady_plasma> * 32000)
+.build();
+
+//终焉反应堆_生产
+RecipeBuilder.newBuilder("terminal_reactor_gen_3", "terminal_reactor", 800)
+.addItemInput(<contenttweaker:programming_circuit_a>).setChance(0)
+.addItemInput(<contenttweaker:programming_circuit_c>).setChance(0)
+.addItemInput(<ore:gemCrystalGreen>).setChance(0.01)
+.addFluidInput(<liquid:plasma> * 8000)
+.addFluidInput(<liquid:matter_plasma> * 96000)
+.addFluidOutput(<liquid:unsteady_plasma> * 32000)
+.addFluidOutput(<liquid:liquid_energy> * 256)
+.build();

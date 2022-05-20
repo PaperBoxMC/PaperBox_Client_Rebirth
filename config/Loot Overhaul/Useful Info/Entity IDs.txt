@@ -490,3 +490,4 @@ techguns:sonicshotgunprojectile - 487
 techguns:supermutantbasic - 488
 techguns:tgdummyspawn - 489
 techguns:laserprojectile - 490
+psicosts:psi_flare - 491
